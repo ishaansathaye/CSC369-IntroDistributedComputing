@@ -1,0 +1,101 @@
+ID,storeName,address,city,ZIP,state,phoneNumber
+1,Albertsons Companies, Inc.,"470 Route 211 East","Middletown","NY","10940",0745729902
+2,Wm Morrison Supermarkets PLC,"352 Palmer Road","Ware","MA","1082",0366055565
+3,Sundrug Co., Ltd.,"1000 State Route 36","Hornell","NY","14843",0627875913
+4,Hy-Vee, Inc.,"1501 Hwy 14 East","Selma","AL","36703",0232555682
+5,Foot Locker, Inc.,"7855 Moffett Rd","Semmes","AL","36575",0449807891
+6,Tiffany & Co.,"3371 S Alabama Ave","Monroeville","AL","36460",0415882872
+7,Jerónimo Martins, SGPS, S.A.,"200 Dutch Meadows Ln","Glenville","NY","12302",0631083749
+8,Signet Jewelers Limited,"300 Colony Place","Plymouth","MA","2360",0880932078
+9,Dairy Farm International Holdings,"85 Crooked Hill Road","Commack","NY","11725",0396568450
+10,Menard, Inc.,"214 Haynes Street","Talladega","AL","35160",0603331449
+11,Pick n Pay Stores Limited,"150 Springville Station Blvd","Springville","AL","35146",0927729768
+12,Organización Soriana, S.A.B. de C.V.,"233 5th Ave Ext","Johnstown","NY","12095",0208140907
+13,NorgesGruppen ASA,"7155 State Rt 12 S","Lowville","NY","13367",0125262452
+14,Metro Inc.,"30 Catskill","Catskill","NY","12414",0312702193
+15,SHV Holdings N.V. / Makro,"80 Town Line Rd","Rocky Hill","CT","6067",0177752195
+16,Wayfair, Inc.,"180 River Rd","Lisbon","CT","6351",0220793230
+17,Kingfisher plc,"121 Worcester Rd","Framingham","MA","1701",0339050878
+18,Defense Commissary Agency (DeCA),"3801 Eastern Blvd","Montgomery","AL","36116",0142326480
+19,NORMA Unternehmens Stiftung,"910 Wolcott St","Waterbury","CT","6705",0659746356
+20,Shimamura Co., Ltd.,"312 Palisades Blvd","Birmingham","AL","35209",0326763542
+21,Sprouts Farmers Market, Inc.,"10710 Chantilly Pkwy","Montgomery","AL","36117",0648275009
+22,Nordstrom, Inc.,"315 Foxon Blvd","New Haven","CT","6513",0088678004
+23,Nordstrom, Inc.,"3801 Eastern Blvd","Montgomery","AL","36116",0323909225
+24,Amazon.com, Inc.,"890 Odum Road","Gardendale","AL","35071",0861282570
+25,E-MART Inc.,"30 Catskill","Catskill","NY","12414",0935748891
+26,Lowe's Companies, Inc.,"7855 Moffett Rd","Semmes","AL","36575",0513250462
+27,C&A Europe,"42 Fairhaven Commons Way","Fairhaven","MA","2719",0961324118
+28,Albertsons Companies, Inc.,"180 River Rd","Lisbon","CT","6351",0943289420
+29,Coop Group,"630 Coonial Promenade Pkwy","Alabaster","AL","35007",0922089439
+30,The Gap, Inc.,"2055 Niagara Falls Blvd","Amherst","NY","14228",0067735275
+31,NorgesGruppen ASA,"540 West Bypass","Andalusia","AL","36420",0474037640
+32,Meijer, Inc.,"100 Thruway Plaza","Cheektowaga","NY","14225",0536836175
+33,Staples, Inc.,"5919 Trussville Crossings Pkwy","Birmingham","AL","35235",0640376327
+34,Auchan Holding SA,"100 Elm Ridge Center Dr","Greece","NY","14626",0637994274
+35,Zalando SE,"279 Troy Road","East Greenbush","NY","12061",0463533482
+36,Ceconomy AG,"3371 S Alabama Ave","Monroeville","AL","36460",0494812966
+37,Associated British Foods plc / Primark,"11697 US Hwy 431","Guntersville","AL","35976",0346228158
+38,PT Sumber Alfaria Trijaya Tbk (Alfamart),"103 North Caroline St","Herkimer","NY","13350",0710514280
+39,Valor Holdings Co., Ltd.,"3222 State Rt 11","Malone","NY","12953",0563805756
+40,Empire Company Limited,"3801 Eastern Blvd","Montgomery","AL","36116",0679612437
+41,WinCo Foods LLC,"2453 2Nd Avenue East","Oneonta","AL","35121",0245660172
+42,L Brands, Inc.,"262 Swansea Mall Dr","Swansea","MA","2777",0349970159
+43,Isetan Mitsukoshi Holdings Ltd.,"2400 Route 9","Fishkill","NY","12524",0100714793
+44,The Gap, Inc.,"1400 Farmington Ave","Bristol","CT","6010",0678512788
+45,Coop Italia,"650 Main Ave","Norwalk","CT","6851",0013316693
+46,Shimamura Co., Ltd.,"67 Newton Rd","Danbury","CT","6810",0033267303
+47,Southeastern Grocers, LLC,"13858 Rt 31 W","Albion","NY","14411",0096864748
+48,Vipshop Holdings Limited,"3018 East Ave","Central Square","NY","13036",0478193122
+49,Lowe's Companies, Inc.,"69 Prospect Hill Road","East Windsor","CT","6088",0015744820
+50,Arcs Co., Ltd.,"4300 Lakeville Road","Geneseo","NY","14454",0016850439
+51,Hudson's Bay Company,"2453 2Nd Avenue East","Oneonta","AL","35121",0298875211
+52,McKesson Europe AG (formerly Celesio,"550 Providence Hwy","Walpole","MA","2081",0560791100
+53,Publix Super Markets, Inc.,"1365 Boston Post Road","Milford","CT","6460",0871530189
+54,Décathlon S.A.,"180 North King Street","Northhampton","MA","1060",0037082988
+55,Dixons Carphone plc,"315 Foxon Blvd","New Haven","CT","6513",0591899677
+56,PetSmart, Inc.,"20 Soojian Dr","Leicester","MA","1524",0947192835
+57,Defense Commissary Agency (DeCA),"11 Jungle Road","Leominster","MA","1453",0492398374
+58,Bed Bath and Beyond Inc.,"2400 Route 9","Fishkill","NY","12524",0224303655
+59,Ross Stores, Inc.,"8064 Brewerton Rd","Cicero","NY","13039",0533703495
+60,Coop Norge, the Group,"5100 Hwy 31","Calera","AL","35040",0088283475
+61,Tengelmann Warenhandelsgesellschaft,"315 Foxon Blvd","New Haven","CT","6513",0869245912
+62,BİM Birleşik Mağazalar A.Ş.,"1450 No Brindlee Mtn Pkwy","Arab","AL","35016",0910653417
+63,The TJX Companies, Inc.,"150 Barnum Avenue Cutoff","Stratford","CT","6614",0882315772
+64,Sports Direct International plc,"1916 Center Point Rd","Center Point","AL","35215",0227090395
+65,Dufry AG,"164 Danbury Rd","New Milford","CT","6776",0863429919
+66,Staples, Inc.,"2200 South Mckenzie St","Foley","AL","36535",0971729358
+67,Office Depot, Inc.,"450 Highland Ave","Salem","MA","1970",0138379256
+68,Smart & Final Stores, Inc.,"1775 Washington St","Hanover","MA","2339",0624079294
+69,BJ’s Wholesale Club Holdings, Inc.,"11610 Memorial Pkwy South","Huntsville","AL","35803",0710474824
+70,Compagnie Financière Richemont SA,"6438 Basile Rowe","East Syracuse","NY","13057",0608650943
+71,Dick's Sporting Goods, Inc.,"165 Vaughan Ln","Pell City","AL","35125",0351753165
+72,Central Group,"1007 Red Farmer Drive","Hueytown","AL","35023",0717840711
+73,Coop Norge, the Group,"161 Centereach Mall","Centereach","NY","11720",0803304150
+74,Shanghai Bailian Group Co., Ltd.,"255 W Main St","Avon","CT","6001",0889862064
+75,Grupo Eroski,"425 Route 31","Macedon","NY","14502",0616680752
+76,Action Nederland BV,"2 Gannett Dr","Johnson City","NY","13790",0642680505
+77,Kesko Corporation,"1537 Hwy 231 South","Ozark","AL","36360",0106348934
+78,Dollar Tree, Inc.,"7155 State Rt 12 S","Lowville","NY","13367",0794433644
+79,Neiman Marcus Group LTD LLC,"1000 State Route 36","Hornell","NY","14843",0782380729
+80,BJ’s Wholesale Club Holdings, Inc.,"2055 Niagara Falls Blvd","Amherst","NY","14228",0403313390
+81,Southeastern Grocers, LLC,"5033 Transit Road","Clarence","NY","14031",0536087599
+82,The Save Mart Companies,"625 School Street","Putnam","CT","6260",0368594065
+83,Lenta Group,"474 Boston Post Road","North Windham","CT","6256",0133150430
+84,Esselunga S.p.A.,"4975 Transit Rd","Lancaster","NY","14086",0740278818
+85,JD Sports Fashion Plc,"495 Flatbush Ave","Hartford","CT","6106",0134747400
+86,Gome Retail Holdings Limited,"3700 Hwy 280-431 N","Phenix City","AL","36867",0443755033
+87,Cosmos Pharmaceutical Corp.,"9248 Parkway East","Birmingham","AL","35206",0339704258
+88,Coop Group,"121 Worcester Rd","Framingham","MA","1701",0240468911
+89,Beisia Group Co., Ltd.,"872 Route 13","Cortlandville","NY","13045",0133372470
+90,Lowe's Companies, Inc.,"180 River Rd","Lisbon","CT","6351",0492858995
+91,Pick n Pay Stores Limited,"155 Waterford Parkway No","Waterford","CT","6385",0401847765
+92,PT Sumber Alfaria Trijaya Tbk (Alfamart),"970 Torringford Street","Torrington","CT","6790",0916596202
+93,Defense Commissary Agency (DeCA),"161 Berlin Road","Cromwell","CT","6416",0147691343
+94,Shanghai Bailian Group Co., Ltd.,"2800 Spring Avn SW","Decatur","AL","35603",0636149173
+95,JB Hi-Fi Limited,"70 Pleasant Valley Street","Methuen","MA","1844",0952411133
+96,Dixons Carphone plc,"2800 Spring Avn SW","Decatur","AL","35603",0964468143
+97,Defense Commissary Agency (DeCA),"2643 Hwy 280 West","Alexander City","AL","35010",0242498092
+98,Schwarz Group,"330 Sutton Rd","Huntsville","AL","35763",0579678377
+99,Homeplus Stores Co., Ltd.,"900 Boston Post Road","Guilford","CT","6437",0754866173
+100,Dillard's, Inc.,"352 Palmer Road","Ware","MA","1082",0111754453
