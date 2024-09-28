@@ -1,0 +1,1001 @@
+ID,name,birthDate,address,city,zip,state,phoneNumber
+1,Bebe Neuwirth,1958/12/31,220 Salem Turnpike,Norwich,CT,6360,0168851848
+2,Ernesto Perez Balladares,1946/06/29,30 Memorial Drive,Avon,MA,2322,0224425293
+3,Andre Aciman,1951/01/02,101 Sanford Farm Shpg Center,Amsterdam,NY,12010,0751331834
+4,Morgan Tsvangirai,1952/03/10,2300 Dixwell Ave,Hamden,CT,6514,0870781849
+5,Neil LaBute,1963/03/19,1970 S University Blvd,Mobile,AL,36609,0209286254
+6,Elizabeth Becker,NA,200 Otis Street,Northborough,MA,1532,0661727104
+7,Gustave Flaubert,1821/12/12,501 Willow Lane,Greenville,AL,36037,0916310117
+8,Maya Lin,1959/10/05,27520 Hwy 98,Daphne,AL,36526,0470796230
+9,Ron Chernow,1949/03/03,5783 So Transit Road,Lockport,NY,14094,0973891904
+10,Ernest Hemingway,1899/07/21,5245 Rangeline Service Rd,Mobile,AL,36619,0757994433
+11,Pierre Buyoya,1949/11/24,4180 Us Hwy 431,Roanoke,AL,36274,0368109152
+12,Jim Courier,1970/08/17,1972 Hwy 431,Boaz,AL,35957,0270902899
+13,Sylvia Plath,1932/10/27,6438 Basile Rowe,East Syracuse,NY,13057,0199500770
+14,Claudio Monteverdi,1567/05/15,180 River Rd,Lisbon,CT,6351,0888822020
+15,Craig Lucas,1951/04/30,2453 2Nd Avenue East,Oneonta,AL,35121,0368644715
+16,Charles Barron,1951/01/01,200 Otis Street,Northborough,MA,1532,0839337062
+17,Sol LeWitt,1928/09/09,1400 Farmington Ave,Bristol,CT,6010,0586960122
+18,Alan Schwarz,1968/07/03,11 Jungle Road,Leominster,MA,1453,0607630824
+19,Kay Bailey Hutchison,1943/07/22,11610 Memorial Pkwy South,Huntsville,AL,35803,0527125723
+20,William Butler Yeats,1865/06/13,333 Main Street,Tewksbury,MA,1876,0978877128
+21,Holly Hunter,1958/03/20,1775 Washington St,Hanover,MA,2339,0457501635
+22,Paul E Patton,1937/05/26,1537 Hwy 231 South,Ozark,AL,36360,0685974064
+23,Emeril Lagasse,1959/10/15,100 Elm Ridge Center Dr,Greece,NY,14626,0201929788
+24,Robert Schumann,NA,5033 Transit Road,Clarence,NY,14031,0579608159
+25,Ed McBain,1926/10/15,352 Palmer Road,Ware,MA,1082,0977564736
+26,Charles B Wang,1944/08/19,10710 Chantilly Pkwy,Montgomery,AL,36117,0103149934
+27,Robert Novak,1931/02/26,66-4 Parkhurst Rd,Chelmsford,MA,1824,0041810530
+28,John F Jr Welch,1935/11/19,11697 US Hwy 431,Guntersville,AL,35976,0576701563
+29,Karen Finley,1956/01/01,970 Torringford Street,Torrington,CT,6790,0286549791
+30,Buck Williams,1960/03/08,250 Hartford Avenue,Bellingham,MA,2019,0069235692
+31,Billy Tauzin,1943/06/14,69 Prospect Hill Road,East Windsor,CT,6088,0388057881
+32,James E Cayne,1934/02/14,200 Dutch Meadows Ln,Glenville,NY,12302,0712814272
+33,LeBron James,1984/12/30,3501 20th Av,Valley,AL,36854,0225183710
+34,Peter Steinfels,1941/01/01,2465 Hempstead Turnpike,East Meadow,NY,11554,0356376889
+35,Jeane J Kirkpatrick,1926/11/19,101 South Beltline Highway,Mobile,AL,36606,0719955795
+36,Sanford I Weill,1933/03/16,25737 US Rt 11,Evans Mills,NY,13637,0178963614
+37,Marilyn Horne,1934/01/16,1201 Rt 300,Newburgh,NY,12550,0952177082
+38,Herb Brooks,1937/08/05,3700 Hwy 280-431 N,Phenix City,AL,36867,0715166543
+39,Billy Hunter,NA,4206 N College Ave,Jackson,AL,36545,0106484649
+40,Albert C Barnes,1872/01/02,495 Flatbush Ave,Hartford,CT,6106,0675816246
+41,Wystan Hugh Auden,1907/02/21,1950 W Main St,Centre,AL,35960,0177494380
+42,Lillian Gish,1893/10/14,279 Troy Road,East Greenbush,NY,12061,0720751339
+43,Lynne F Stewart,1939/10/08,550 Providence Hwy,Walpole,MA,2081,0047165647
+44,Jose Contreras,1971/12/06,7155 State Rt 12 S,Lowville,NY,13367,0467262868
+45,Christoph Eschenbach,1940/01/01,297 Grant Avenue,Auburn,NY,13021,0636519948
+46,Fuzzy Zoeller,1951/11/11,10401 Bennett Road,Fredonia,NY,14063,0558903273
+47,Lawrence J Ellison,1944/08/17,555 Hubbard Ave-Suite 12,Pittsfield,MA,1201,0589320286
+48,Haley Barbour,1947/10/22,910 Wolcott St,Waterbury,CT,6705,0447111178
+49,Gnassingbe Eyadema,1935/12/26,300 Colony Place,Plymouth,MA,2360,0463719735
+50,Wayne LaPierre,1948/11/08,3222 State Rt 11,Malone,NY,12953,0469682391
+51,John James Audubon,1785/04/26,3164 Berlin Turnpike,Newington,CT,6111,0995727485
+52,James K Hahn,1950/07/03,10675 Hwy 5,Brent,AL,35034,0530642567
+53,Kate Winslet,1975/10/05,2 Gannett Dr,Johnson City,NY,13790,0497993654
+54,Jack Reed,NA,41 Anawana Lake Road,Monticello,NY,12701,0082192867
+55,Sun Myung Moon,1920/02/25,36 Paramount Drive,Raynham,MA,2767,0970281613
+56,Frank Gehry,1929/02/28,69 Prospect Hill Road,East Windsor,CT,6088,0173116175
+57,Cameron Crowe,1957/07/13,3371 S Alabama Ave,Monroeville,AL,36460,0984057221
+58,Susan Molinari,1958/03/27,6495 Atlanta Hwy,Montgomery,AL,36117,0566626650
+59,Tim Allen,1953/06/13,8551 Whitfield Ave,Leeds,AL,35094,0503222574
+60,Monica S Lewinsky,1973/07/23,170 Fort Morgan Road,Gulf Shores,AL,36542,0180573119
+61,Jack Kevorkian,1928/05/26,1000 State Route 36,Hornell,NY,14843,0932950273
+62,Andreas Papandreou,1919/02/05,10040 County Road 48,Fairhope,AL,36533,0253079776
+63,William E Colby,1920/01/04,1007 Red Farmer Drive,Hueytown,AL,35023,0380687051
+64,Wole Soyinka,1934/07/13,333 Main Street,Tewksbury,MA,1876,0871574251
+65,Antoin Rezko,1955/01/01,601 Frank Stottile Blvd,Kingston,NY,12401,0309381436
+66,I Leo Glasser,1924/04/06,34301 Hwy 43,Thomasville,AL,36784,0745616447
+67,Caetano Veloso,1942/08/07,311 RT 9W,Glenmont,NY,12077,0272732637
+68,Franz Liszt,1811/10/22,591 Memorial Dr,Chicopee,MA,1020,0564235989
+69,Richard M Scrushy,1952/01/01,180 River Rd,Lisbon,CT,6351,0242056985
+70,Pierce Brosnan,1953/05/16,350 E Fairmount Ave,Lakewood,NY,14750,0389797467
+71,Kitty Kelley,1942/04/04,85 Crooked Hill Road,Commack,NY,11725,0207884969
+72,Phil Mickelson,1970/06/16,8551 Whitfield Ave,Leeds,AL,35094,0143842752
+73,Gloria Macapagal Arroyo,1947/04/05,470 Route 211 East,Middletown,NY,10940,0071847454
+74,NA Ma Ying-jeou,1950/07/13,1916 Center Point Rd,Center Point,AL,35215,0578634956
+75,Peter Gelb,1953/01/01,685 Schillinger Rd,Mobile,AL,36695,0614861136
+76,Jorge Posada,1971/08/17,350 E Fairmount Ave,Lakewood,NY,14750,0902652999
+77,Mel Karmazin,1943/08/24,10040 County Road 48,Fairhope,AL,36533,0132029369
+78,Olof Palme,1927/01/30,7855 Moffett Rd,Semmes,AL,36575,0773309203
+79,John Stockton,1962/03/26,250 Hartford Avenue,Bellingham,MA,2019,0880333063
+80,John Huston,1906/08/05,5245 Rangeline Service Rd,Mobile,AL,36619,0022147407
+81,Ethel Kennedy,1928/04/11,2200 Sparkman Drive,Huntsville,AL,35810,0107373391
+82,Wojciech Jaruzelski,1923/07/06,301 Falls Blvd,Quincy,MA,2169,0255411557
+83,George Ryan,1934/02/24,2900 Pepperrell Pkwy,Opelika,AL,36801,0752216669
+84,Christopher Ashley,NA,135 Fairgrounds Memorial Pkwy,Ithaca,NY,14850,0923443707
+85,Elizabeth Swados,1951/02/05,3100 Hough Rd,Florence,AL,35630,0015520365
+86,Richard M Daley,NA,30 Catskill,Catskill,NY,12414,0070112760
+87,Neil Bush,1955/01/22,72 Main St,North Reading,MA,1864,0374502421
+88,Ibrahim Rugova,1944/12/02,420 Buckland Hills Dr,Manchester,CT,6040,0546507876
+89,Bartolo Colon,1973/05/24,901 Route 110,Farmingdale,NY,11735,0582514962
+90,Riccardo Chailly,1953/02/20,450 Highland Ave,Salem,MA,1970,0597884353
+91,Robert Moses,1888/12/18,6140A Univ Drive,Huntsville,AL,35806,0550012225
+92,Isamu Noguchi,1904/11/17,495 Flatbush Ave,Hartford,CT,6106,0551375217
+93,Anita Brookner,1928/07/16,3100 Hough Rd,Florence,AL,35630,0503409443
+94,Michael Winterbottom,1961/03/29,255 W Main St,Avon,CT,6001,0067069870
+95,Thomas Middelhoff,1953/05/11,41301 US Hwy 280,Sylacauga,AL,35150,0996914511
+96,Ozzy Osbourne,1948/12/03,1400 Farmington Ave,Bristol,CT,6010,0390097861
+97,Raul Mondesi,1971/03/12,200 Dutch Meadows Ln,Glenville,NY,12302,0721803433
+98,Christopher Walken,1943/03/31,1818 State Route 3,Fulton,NY,13069,0167906419
+99,Raymond Chandler,1888/07/23,600 Boll Weevil Circle,Enterprise,AL,36330,0450148938
+100,Thomas Middelhoff,1953/05/11,350 E Fairmount Ave,Lakewood,NY,14750,0642182822
+101,Tommy Lasorda,1927/09/22,7855 Moffett Rd,Semmes,AL,36575,0613863738
+102,Edmund Hillary,1919/07/20,3100 Hough Rd,Florence,AL,35630,0979675723
+103,Taro Aso,NA,601 Frank Stottile Blvd,Kingston,NY,12401,0916728817
+104,James Joyce,1882/02/02,5783 So Transit Road,Lockport,NY,14094,0598218641
+105,Ute Lemper,1963/07/04,3949 Route 31,Clay,NY,13041,0251438393
+106,Roger Maris,1934/09/10,1916 Center Point Rd,Center Point,AL,35215,0610572666
+107,Wojciech Jaruzelski,1923/07/06,1717 South College Street,Auburn,AL,36830,0450761527
+108,Miley Cyrus,1992/11/23,900 Boston Post Road,Guilford,CT,6437,0509117319
+109,Timothy M Kaine,1958/02/26,844 No Colony Road,Wallingford,CT,6492,0712698423
+110,Warren St John,NA,5710 Mcfarland Blvd,Northport,AL,35476,0944326406
+111,B B King,1925/09/16,43 Stephenville St,Massena,NY,13662,0197229956
+112,Raul Julia,1940/03/09,2055 Niagara Falls Blvd,Amherst,NY,14228,0703815845
+113,Reggie Jackson,1946/05/18,4765 Commercial Drive,New Hartford,NY,13413,0906322275
+114,Darryl Strawberry,1962/03/12,8551 Whitfield Ave,Leeds,AL,35094,0179471413
+115,Ben Heppner,1956/01/14,15445 Highway 24,Moulton,AL,35650,0958132056
+116,David E Bonior,1945/06/06,352 Palmer Road,Ware,MA,1082,0586223227
+117,Jerome Kern,1885/01/27,16077 Highway 280,Chelsea,AL,35043,0268473013
+118,Anne Roiphe,1935/12/25,4300 Lakeville Road,Geneseo,NY,14454,0297110123
+119,Helen Hayes,1900/10/10,3186 Hwy 171 North,Fayette,AL,35555,0682092808
+120,Hideo Nomo,1968/08/31,262 Swansea Mall Dr,Swansea,MA,2777,0858988863
+121,Deborah Voigt,1960/08/04,137 Teaticket Hwy,East Falmouth,MA,2536,0540344721
+122,Benny Agbayani,1971/12/28,3700 Hwy 280-431 N,Phenix City,AL,36867,0583247314
+123,Alan Ayckbourn,1939/04/12,3018 East Ave,Central Square,NY,13036,0182686513
+124,Leonardo da Vinci,1452/04/15,1903 Cobbs Ford Rd,Prattville,AL,36066,0360351769
+125,William S Lerach,1946/03/14,3371 S Alabama Ave,Monroeville,AL,36460,0482381812
+126,Susan Faludi,1959/04/18,100 Elm Ridge Center Dr,Greece,NY,14626,0519437595
+127,Aretha Franklin,1942/03/25,4180 Us Hwy 431,Roanoke,AL,36274,0952296917
+128,Jorge G Castaneda,NA,1903 Cobbs Ford Rd,Prattville,AL,36066,0446764395
+129,Christian Lacroix,1951/05/16,6495 Atlanta Hwy,Montgomery,AL,36117,0601507616
+130,Tom Seaver,1944/11/17,340 East Meighan Blvd,Gadsden,AL,35903,0025768771
+131,Maria Aspan,1982/01/01,1007 Red Farmer Drive,Hueytown,AL,35023,0095613173
+132,Juwan Howard,1973/02/07,2465 Hempstead Turnpike,East Meadow,NY,11554,0630369265
+133,Adam Cohen,NA,3005 Cranberry Hwy Rt 6 28,Wareham,MA,2538,0480814246
+134,Budd Schulberg,1914/03/27,233 5th Ave Ext,Johnstown,NY,12095,0584055720
+135,Richard Schickel,1933/02/10,2300 Dixwell Ave,Hamden,CT,6514,0425398051
+136,Roberto Alagna,1963/06/07,465 Bridgeport Avenue,Shelton,CT,6484,0139263294
+137,Wayne Shorter,1933/08/25,3371 S Alabama Ave,Monroeville,AL,36460,0664973166
+138,Seiji Ozawa,1935/09/01,6265 Brockport Spencerport Rd,Brockport,NY,14420,0157397650
+139,Vaslav Nijinsky,1889/03/12,4310 Montgomery Hwy,Dothan,AL,36303,0241641356
+140,Henry A Kissinger,1923/05/27,872 Route 13,Cortlandville,NY,13045,0342246180
+141,Kurt Warner,1971/06/22,1801 Hwy 78 East,Jasper,AL,35501,0358606592
+142,Kwame M Kilpatrick,1970/06/06,150 Barnum Avenue Cutoff,Stratford,CT,6614,0414150922
+143,Sylvester Stallone,1946/07/06,2465 Hempstead Turnpike,East Meadow,NY,11554,0447300061
+144,Vartan Gregorian,1934/04/08,262 Swansea Mall Dr,Swansea,MA,2777,0533987728
+145,Pedro Almodovar,1949/09/25,101 Sanford Farm Shpg Center,Amsterdam,NY,12010,0437043572
+146,Jalen Rose,1973/01/30,1970 S University Blvd,Mobile,AL,36609,0093278892
+147,David M Childs,1941/04/01,2453 2Nd Avenue East,Oneonta,AL,35121,0723340643
+148,Andrew Rosenthal,1956/01/01,1717 South College Street,Auburn,AL,36830,0785016103
+149,Harry Caray,1914/03/01,474 Boston Post Road,North Windham,CT,6256,0523277653
+150,Mary J Blige,1971/01/11,1300 Gilmer Ave,Tallassee,AL,36078,0205332985
+151,Jane Perlez,NA,2055 Niagara Falls Blvd,Amherst,NY,14228,0657796144
+152,Mark Lamos,1946/03/10,6265 Brockport Spencerport Rd,Brockport,NY,14420,0836049934
+153,Tommy Hilfiger,1951/03/24,250 Rt 59,Airmont,NY,10901,0757696444
+154,David Gelernter,1955/03/05,72 Main St,North Reading,MA,1864,0893160940
+155,Bobby Jindal,1971/06/10,1903 Cobbs Ford Rd,Prattville,AL,36066,0310303544
+156,Lar Lubovitch,1943/04/09,872 Route 13,Cortlandville,NY,13045,0303183021
+157,Carlos Slim Helu,1940/01/28,42417 Hwy 195,Haleyville,AL,35565,0269248219
+158,Derrick Bell,1930/11/06,625 School Street,Putnam,CT,6260,0368556824
+159,Pierre Buyoya,1949/11/24,27520 Hwy 98,Daphne,AL,36526,0482157274
+160,James E Rogan,1957/08/21,25737 US Rt 11,Evans Mills,NY,13637,0848917027
+161,Gerald L Shargel,1944/10/05,280 Washington Street,Hudson,MA,1749,0613416774
+162,Robert Spano,1961/05/07,656 New Haven Ave,Derby,CT,6418,0938018882
+163,Bernadette Castro,1944/01/01,1201 Rt 300,Newburgh,NY,12550,0052147072
+164,David Bouley,1953/05/27,425 Route 31,Macedon,NY,14502,0045598149
+165,Anna Nicole Smith,1967/11/28,3300 South Oates Street,Dothan,AL,36301,0893859654
+166,Mortimer B Zuckerman,1937/06/04,9248 Parkway East,Birmingham,AL,35206,0312513749
+167,Meredith Monk,1942/11/20,6140A Univ Drive,Huntsville,AL,35806,0906368808
+168,Zacarias Moussaoui,1968/05/30,5919 Trussville Crossings Pkwy,Birmingham,AL,35235,0439250844
+169,Neil L Rudenstine,1935/01/21,161 Centereach Mall,Centereach,NY,11720,0606940095
+170,Michael Pollan,1955/02/06,100 Charlton Road,Sturbridge,MA,1566,0604294250
+171,Irving Berlin,1888/05/11,2300 Dixwell Ave,Hamden,CT,6514,0368484224
+172,Kirk Douglas,1916/12/09,555 East Main St,Orange,MA,1364,0664999503
+173,Robert Byrne,NA,103 North Caroline St,Herkimer,NY,13350,0861368623
+174,Eric Robert Rudolph,1966/09/19,901 Route 110,Farmingdale,NY,11735,0604629855
+175,Rahm Emanuel,1959/11/29,5245 Rangeline Service Rd,Mobile,AL,36619,0607441246
+176,Henry A Waxman,1939/09/12,150 Barnum Avenue Cutoff,Stratford,CT,6614,0619791386
+177,Kathleen Turner,1954/06/19,3018 East Ave,Central Square,NY,13036,0380201200
+178,Adrian Lyne,1941/03/04,5560 Mcclellan Blvd,Anniston,AL,36206,0039676000
+179,Czar of Russia Nicholas II,1868/05/18,1775 Washington St,Hanover,MA,2339,0581947857
+180,John Frankenheimer,1930/02/19,4300 Lakeville Road,Geneseo,NY,14454,0832365836
+181,James E Davis,NA,255 W Main St,Avon,CT,6001,0711166229
+182,Michael Caine,1933/03/14,465 Bridgeport Avenue,Shelton,CT,6484,0221913705
+183,Abdul Rashid Dostum,1954/01/01,900 Boston Post Road,Guilford,CT,6437,0621119681
+184,Vivienne Westwood,1941/04/08,1717 South College Street,Auburn,AL,36830,0948549519
+185,Dorothy Parker,1893/08/22,1400 County Rd 64,Horseheads,NY,14845,0096903789
+186,Boris Becker,1967/11/22,100 Elm Ridge Center Dr,Greece,NY,14626,0811044525
+187,Iva Majoli,1977/08/12,66-4 Parkhurst Rd,Chelmsford,MA,1824,0827896734
+188,Rupert Murdoch,1931/03/11,297 Grant Avenue,Auburn,NY,13021,0979096536
+189,Ray Charles,1930/09/23,5560 Mcclellan Blvd,Anniston,AL,36206,0552672502
+190,Monica Seles,1973/12/02,3005 Cranberry Hwy Rt 6 28,Wareham,MA,2538,0097727652
+191,Alexandra Stevenson,1980/12/15,374 William S Canning Blvd,Fall River,MA,2721,0947718690
+192,Morton Feldman,1926/01/12,330 Sutton Rd,Huntsville,AL,35763,0075081910
+193,Roberto Micheletti,1943/08/13,2473 Hackworth Road,Adamsville,AL,35005,0353265105
+194,Jack F Kemp,1935/07/13,677 Timpany Blvd,Gardner,MA,1440,0405469153
+195,Zalmay Khalilzad,1951/03/22,10040 County Road 48,Fairhope,AL,36533,0833186076
+196,Brian Friel,1929/01/09,13675 Hwy 43,Russellville,AL,35653,0281333681
+197,David Falk,1950/01/01,5335 Hwy 280 South,Hoover,AL,35242,0945109388
+198,Ingmar Bergman,1918/07/14,506 State Road,North Dartmouth,MA,2747,0956847411
+199,Bernard B Kerik,1955/09/04,2400 Route 9,Fishkill,NY,12524,0988415906
+200,Jim Guy Tucker,1943/06/13,295 Plymouth Street,Halifax,MA,2338,0966303801
+201,Mira Nair,1957/10/15,214 Haynes Street,Talladega,AL,35160,0335844897
+202,Bernard Tschumi,1944/01/25,288 Larkin,Monroe,NY,10950,0691275289
+203,Bryan Berard,NA,2900 S Mem PkwyDrake Ave,Huntsville,AL,35801,0348119518
+204,Lola Ogunnaike,NA,3700 Hwy 280-431 N,Phenix City,AL,36867,0739558397
+205,Todd Eldredge,1971/08/28,780 Lynnway,Lynn,MA,1905,0493312669
+206,Samuel J Palmisano,1951/07/29,2 Gannett Dr,Johnson City,NY,13790,0471565063
+207,Laura Miller,1958/11/18,1400 Farmington Ave,Bristol,CT,6010,0771432493
+208,John Herbers,1923/11/04,5399 W Genesse St,Camillus,NY,13031,0965725987
+209,Gene Kelly,1912/08/23,1300 Montgomery Highway,Vestavia Hills,AL,35216,0534028546
+210,Hubert Vedrine,1947/07/31,1950 W Main St,Centre,AL,35960,0582638707
+211,Ian McKellen,1939/05/25,135 Fairgrounds Memorial Pkwy,Ithaca,NY,14850,0977305347
+212,Jimmy Key,1961/04/22,13675 Hwy 43,Russellville,AL,35653,0153536731
+213,Bode Miller,1977/10/12,103 North Caroline St,Herkimer,NY,13350,0612343418
+214,Bret D Schundler,NA,3100 Hough Rd,Florence,AL,35630,0085346083
+215,Elaine Sciolino,NA,165 Vaughan Ln,Pell City,AL,35125,0812461189
+216,Norman Rockwell,1894/02/03,3164 Berlin Turnpike,Newington,CT,6111,0664894535
+217,Gustave Flaubert,1821/12/12,2473 Hackworth Road,Adamsville,AL,35005,0717878344
+218,Tommy Hilfiger,1951/03/24,164 Danbury Rd,New Milford,CT,6776,0119651774
+219,Henry B Schacht,NA,1400 County Rd 64,Horseheads,NY,14845,0312416029
+220,Fuzzy Zoeller,1951/11/11,311 RT 9W,Glenmont,NY,12077,0954422948
+221,Steve Martin,1945/08/14,750 Middle Country Road,Middle Island,NY,11953,0407954709
+222,Kurt Eichenwald,1961/06/28,3801 Eastern Blvd,Montgomery,AL,36116,0056639432
+223,Porter J Goss,1938/11/26,830 Curran Memorial Hwy,North Adams,MA,1247,0150669293
+224,Dmitri Shostakovich,1906/09/25,3018 East Ave,Central Square,NY,13036,0739294310
+225,Joseph Bastianich,1968/09/17,2473 Hackworth Road,Adamsville,AL,35005,0209503774
+226,Duncan Hunter,1948/05/31,6350 Cottage Hill Road,Mobile,AL,36609,0355493276
+227,Lucille Ball,1911/08/06,55 Brooksby Village Way,Danvers,MA,1923,0361753625
+228,Khalid Abdul Muhammad,1948/01/12,165 Vaughan Ln,Pell City,AL,35125,0577216796
+229,William Hurt,1950/03/20,470 Route 211 East,Middletown,NY,10940,0758267471
+230,Lawrence Taylor,1959/02/04,3164 Berlin Turnpike,Newington,CT,6111,0178279903
+231,C Vivian Stringer,1948/03/16,3300 South Oates Street,Dothan,AL,36301,0678077481
+232,Tommy Lee Jones,1946/09/15,250 Rt 59,Airmont,NY,10901,0448756160
+233,John Barth,1930/05/27,10675 Hwy 5,Brent,AL,35034,0869121483
+234,Lisa Marie Nowak,1963/05/10,5360 Southwestern Blvd,Hamburg,NY,14075,0485572722
+235,James Ellroy,1948/03/04,8551 Whitfield Ave,Leeds,AL,35094,0822461183
+236,Kurt Eichenwald,1961/06/28,200 Sunrise Mall,Massapequa,NY,11758,0148165923
+237,Zubin Mehta,1936/04/29,970 Torringford Street,Torrington,CT,6790,0847451409
+238,Roberto Alagna,1963/06/07,1972 Hwy 431,Boaz,AL,35957,0232629241
+239,Eddie Murphy,1961/04/03,517 West Avalon Ave,Muscle Shoals,AL,35661,0745761986
+240,Richard Strauss,1864/06/11,2200 South Mckenzie St,Foley,AL,36535,0677502693
+241,Deval L Patrick,1956/07/31,990 Route 5 20,Geneva,NY,14456,0573568936
+242,Helen Frankenthaler,1928/12/12,103 North Caroline St,Herkimer,NY,13350,0622353266
+243,Sani Abacha,1943/09/20,1201 Rt 300,Newburgh,NY,12550,0340520548
+244,Leslie Crocker Snyder,1942/01/01,43 Stephenville St,Massena,NY,13662,0684762569
+245,Jana Novotna,1968/10/02,3222 State Rt 11,Malone,NY,12953,0481690497
+246,Emma Thompson,1959/04/15,701 Mcmeans Ave,Bay Minette,AL,36507,0852075473
+247,Leah Rabin,1928/04/08,3949 Route 31,Clay,NY,13041,0193139277
+248,Nadine Lockwood,1991/01/01,4975 Transit Rd,Lancaster,NY,14086,0471402329
+249,Alger Hiss,1904/11/11,601 Frank Stottile Blvd,Kingston,NY,12401,0500800277
+250,Paul A Volcker,1927/09/05,1300 Gilmer Ave,Tallassee,AL,36078,0674318347
+251,Ethel Kennedy,1928/04/11,1818 State Route 3,Fulton,NY,13069,0370331306
+252,Peter E Bacanovic,NA,780 Lynnway,Lynn,MA,1905,0835712121
+253,Jean-Luc Godard,1930/12/03,145 Kelley Blvd,Millbrook,AL,36054,0595628902
+254,Juli Inkster,1960/06/24,900 Boston Post Road,Guilford,CT,6437,0327229783
+255,Saparmurat Niyazov,1940/02/19,1916 Center Point Rd,Center Point,AL,35215,0905912520
+256,Stuart E Eizenstat,1943/01/15,5360 Southwestern Blvd,Hamburg,NY,14075,0555768517
+257,Charles Busch,1954/08/23,630 Coonial Promenade Pkwy,Alabaster,AL,35007,0575094877
+258,Jan Egeland,1957/09/12,890 Odum Road,Gardendale,AL,35071,0731598177
+259,Amos Oz,1939/05/04,780 Lynnway,Lynn,MA,1905,0375258165
+260,Tilda Swinton,1960/11/05,555 East Main St,Orange,MA,1364,0538196302
+261,Ivan G Seidenberg,1946/12/10,474 Boston Post Road,North Windham,CT,6256,0006042828
+262,Sidney M Wolfe,NA,41301 US Hwy 280,Sylacauga,AL,35150,0266431872
+263,Barbara Bailey Kennelly,1936/07/10,85 Crooked Hill Road,Commack,NY,11725,0697904878
+264,Scott M Stringer,1960/04/29,312 Palisades Blvd,Birmingham,AL,35209,0154416637
+265,David Foster Wallace,1962/02/21,1801 Hwy 78 East,Jasper,AL,35501,0765309215
+266,Robert N Wilentz,1927/02/17,340 East Meighan Blvd,Gadsden,AL,35903,0440496688
+267,Kathleen Turner,1954/06/19,750 Middle Country Road,Middle Island,NY,11953,0693220876
+268,Tawana Brawley,1972/01/01,851 Ann St,Montgomery,AL,36107,0702558549
+269,Keith van Horn,1975/10/23,15445 Highway 24,Moulton,AL,35650,0676496973
+270,Randy Cunningham,1941/12/08,20 Soojian Dr,Leicester,MA,1524,0544254030
+271,Richard J Riordan,1930/05/01,550 Providence Hwy,Walpole,MA,2081,0312347697
+272,Tim Pawlenty,1960/11/27,656 New Haven Ave,Derby,CT,6418,0424697343
+273,Megan Kanka,1986/12/07,6438 Basile Rowe,East Syracuse,NY,13057,0604076193
+274,John A Gotti,1964/02/14,5399 W Genesse St,Camillus,NY,13031,0349380526
+275,Vernon E Jr Jordan,1935/08/15,10401 Bennett Road,Fredonia,NY,14063,0109029462
+276,Jerrold Nadler,1947/06/13,42 Fairhaven Commons Way,Fairhaven,MA,2719,0843791588
+277,Harvey Keitel,1939/05/13,626 Olive Street Sw,Cullman,AL,35055,0466259646
+278,Paul E Patton,1937/05/26,3501 20th Av,Valley,AL,36854,0861899125
+279,Eva S Moskowitz,1964/03/04,2 Gannett Dr,Johnson City,NY,13790,0750273881
+280,Egon Schiele,1890/06/12,301 Massachusetts Ave,Lunenburg,MA,1462,0587994725
+281,James L Barksdale,1943/01/24,5033 Transit Road,Clarence,NY,14031,0334328564
+282,George Karl,1951/05/12,9248 Parkway East,Birmingham,AL,35206,0173083707
+283,Martin Short,1950/03/26,1300 Montgomery Highway,Vestavia Hills,AL,35216,0864023622
+284,Sergei Rachmaninoff,1873/04/01,297 Grant Avenue,Auburn,NY,13021,0634018835
+285,Bruce Springsteen,1949/09/23,1717 South College Street,Auburn,AL,36830,0306270647
+286,Al Leiter,1965/10/23,901 Route 110,Farmingdale,NY,11735,0528334096
+287,John Eliot Gardiner,1943/04/20,315 Foxon Blvd,New Haven,CT,6513,0568514969
+288,Colleen Dewhurst,1924/06/03,1501 Skyland Blvd E,Tuscaloosa,AL,35405,0773766472
+289,Sue W Kelly,1936/09/26,1801 Hwy 78 East,Jasper,AL,35501,0384495255
+290,Colleen Kollar-Kotelly,1943/01/01,27520 Hwy 98,Daphne,AL,36526,0545318099
+291,Eliot L Spitzer,1959/06/10,7100 Aaron Aronov Drive,Fairfield,AL,35064,0671210384
+292,Alberto K Fujimori,1938/07/28,1011 US Hwy 72 East,Athens,AL,35611,0946585326
+293,Salvador Allende Gossens,1908/06/26,2 Gannett Dr,Johnson City,NY,13790,0607212506
+294,Don DeLillo,1936/11/20,10040 County Road 48,Fairhope,AL,36533,0855134293
+295,Mikheil Saakashvili,1967/12/21,220 Salem Turnpike,Norwich,CT,6360,0220738481
+296,Alain Ducasse,1956/09/13,5245 Rangeline Service Rd,Mobile,AL,36619,0298191314
+297,Ginia Bellafante,1965/03/31,3191 County rd 10,Canandaigua,NY,14424,0012331301
+298,Faye Dunaway,1941/01/14,2500 Dawes Road,Mobile,AL,36695,0765133417
+299,Ellen DeGeneres,1958/01/26,601 Frank Stottile Blvd,Kingston,NY,12401,0082290802
+300,Arthur Ashe,1943/07/10,55 Brooksby Village Way,Danvers,MA,1923,0609627309
+301,Rupert Everett,1959/05/29,506 State Road,North Dartmouth,MA,2747,0785742486
+302,David Cronenberg,1943/03/15,680 Connecticut Avenue,Norwalk,CT,6854,0141367710
+303,Ted Cottrell,1947/06/13,301 Falls Blvd,Quincy,MA,2169,0951314823
+304,Shigeki Maruyama,1969/09/12,10710 Chantilly Pkwy,Montgomery,AL,36117,0742225047
+305,Bartlett Sher,1959/01/01,550 Providence Hwy,Walpole,MA,2081,0851542845
+306,Greg Norman,1955/02/10,85 Crooked Hill Road,Commack,NY,11725,0098306713
+307,Ann Reinking,1949/11/10,3949 Route 31,Clay,NY,13041,0758984382
+308,Eduardo Duhalde,1941/10/05,1450 No Brindlee Mtn Pkwy,Arab,AL,35016,0509074596
+309,Dusty Baker,1949/06/15,1011 US Hwy 72 East,Athens,AL,35611,0171702805
+310,Francisco Franco,1892/12/04,374 William S Canning Blvd,Fall River,MA,2721,0416525832
+311,Gerald P Garson,1932/08/03,6265 Brockport Spencerport Rd,Brockport,NY,14420,0320946621
+312,Robert L Nardelli,1948/05/17,517 West Avalon Ave,Muscle Shoals,AL,35661,0387847404
+313,Jimmy Connors,1952/09/02,517 West Avalon Ave,Muscle Shoals,AL,35661,0876505877
+314,Samuel P Huntington,1927/04/18,20 Soojian Dr,Leicester,MA,1524,0133280479
+315,Meg Ryan,1961/11/19,685 Schillinger Rd,Mobile,AL,36695,0063667852
+316,Richard Goode,1943/06/01,315 Foxon Blvd,New Haven,CT,6513,0130517474
+317,Betty Currie,1939/11/10,2643 Hwy 280 West,Alexander City,AL,35010,0373365764
+318,Tom Freston,1945/11/22,42417 Hwy 195,Haleyville,AL,35565,0205068342
+319,Conrad Burns,1935/01/25,214 Haynes Street,Talladega,AL,35160,0519721445
+320,Art Spiegelman,1948/02/15,5783 So Transit Road,Lockport,NY,14094,0137475148
+321,Bob Woodward,1943/03/26,41301 US Hwy 280,Sylacauga,AL,35150,0426164552
+322,Milos Forman,1932/02/18,164 Danbury Rd,New Milford,CT,6776,0341440486
+323,Jesse K Timmendequas,NA,506 State Road,North Dartmouth,MA,2747,0820227774
+324,Peter Braunstein,1964/01/26,777 Brockton Avenue,Abington,MA,2351,0068678018
+325,Todd Haynes,1961/01/02,2500 Dawes Road,Mobile,AL,36695,0709021662
+326,Edward Burns,1968/01/29,1608 W Magnolia Ave,Geneva,AL,36340,0886148296
+327,Roland W Burris,1937/08/03,1470 S Washington St,North Attleboro,MA,2760,0221405596
+328,Leah Rabin,1928/04/08,1625 Pelham South,Jacksonville,AL,36265,0500966516
+329,Francis Poulenc,1899/01/07,750 Middle Country Road,Middle Island,NY,11953,0176500452
+330,Jim Simpson,NA,5245 Rangeline Service Rd,Mobile,AL,36619,0974393360
+331,Peter Greenaway,1942/04/05,161 Centereach Mall,Centereach,NY,11720,0747235397
+332,Alistair Cooke,1908/11/20,2575 Us Hwy 43,Winfield,AL,35594,0703251186
+333,Barry Zito,1978/05/13,3700 Hwy 280-431 N,Phenix City,AL,36867,0461365383
+334,Thomas Jefferson,1743/04/13,1501 Hwy 14 East,Selma,AL,36703,0841803327
+335,Michael Douglas,1944/09/25,1717 South College Street,Auburn,AL,36830,0270596688
+336,Emile Lahoud,1936/01/12,42417 Hwy 195,Haleyville,AL,35565,0115072699
+337,Anthony D Marshall,1924/05/30,5360 Southwestern Blvd,Hamburg,NY,14075,0371192306
+338,Mandy Patinkin,1952/11/30,164 Danbury Rd,New Milford,CT,6776,0835439631
+339,Tommy Morrison,1969/01/02,180 River Rd,Lisbon,CT,6351,0979633515
+340,Marge Schott,1928/08/18,700 Oak Street,Brockton,MA,2301,0679758830
+341,Sergei B Ivanov,1953/01/31,352 Palmer Road,Ware,MA,1082,0182124785
+342,Eddie Murphy,1961/04/03,100 Thruway Plaza,Cheektowaga,NY,14225,0048556632
+343,Melinda Gates,1964/08/15,200 Dutch Meadows Ln,Glenville,NY,12302,0239778670
+344,Patti Smith,1946/12/30,5335 Hwy 280 South,Hoover,AL,35242,0500031393
+345,T Coraghessan Boyle,1948/12/02,3164 Berlin Turnpike,Newington,CT,6111,0285286047
+346,Edgar Allan Poe,1809/01/19,1011 US Hwy 72 East,Athens,AL,35611,0359922507
+347,Hillary Rodham Clinton,1947/10/26,1801 Hwy 78 East,Jasper,AL,35501,0834735999
+348,Chita Rivera,1933/01/23,145 Kelley Blvd,Millbrook,AL,36054,0620285255
+349,Ted Koppel,1940/02/08,92 Plaza Lane,Oxford,AL,36203,0862286999
+350,Peggy Noonan,1950/09/07,100 Elm Ridge Center Dr,Greece,NY,14626,0692217357
+351,William J McDonough,1934/04/21,4538 Us Hwy 231,Wetumpka,AL,36092,0193430491
+352,Jerome Charyn,1937/05/13,3133 E Main St,Mohegan Lake,NY,10547,0668807514
+353,Myles Brand,1942/05/17,165 Vaughan Ln,Pell City,AL,35125,0519496209
+354,Bill Lann Lee,1949/02/05,4538 Us Hwy 231,Wetumpka,AL,36092,0248436724
+355,P J Carlesimo,1949/05/30,3371 S Alabama Ave,Monroeville,AL,36460,0609692999
+356,Lindsey Graham,1955/07/09,85 Crooked Hill Road,Commack,NY,11725,0002080213
+357,Bernard Hopkins,1965/01/15,973 Gilbert Ferry Road Se,Attalla,AL,35954,0618761084
+358,Truman Capote,1924/09/30,701 Mcmeans Ave,Bay Minette,AL,36507,0661098733
+359,Don Baylor,1949/06/28,42 Fairhaven Commons Way,Fairhaven,MA,2719,0121129241
+360,Edgar Allan Poe,1809/01/19,555 East Main St,Orange,MA,1364,0243641210
+361,Carly Simon,1945/06/25,2181 Pelham Pkwy,Pelham,AL,35124,0334814939
+362,Doug Hughes,NA,161 Centereach Mall,Centereach,NY,11720,0773507766
+363,Tim Robbins,1958/10/16,80 Town Line Rd,Rocky Hill,CT,6067,0043598102
+364,Patrick E Tyler,1951/11/06,3176 South Eufaula Avenue,Eufaula,AL,36027,0484638217
+365,Scott M Stringer,1960/04/29,601 Frank Stottile Blvd,Kingston,NY,12401,0734006565
+366,Nicolae Ceausescu,1918/01/26,301 Falls Blvd,Quincy,MA,2169,0621555386
+367,Trip Gabriel,1955/01/01,30 Catskill,Catskill,NY,12414,0426830080
+368,Dianne Wiest,1948/03/28,4765 Commercial Drive,New Hartford,NY,13413,0774943427
+369,Michael J Bragman,1940/08/11,2465 Hempstead Turnpike,East Meadow,NY,11554,0489061565
+370,David Bowie,1947/01/08,685 Schillinger Rd,Mobile,AL,36695,0463238413
+371,NA John Paul II,1920/05/18,43 Stephenville St,Massena,NY,13662,0814222988
+372,Denis Johnson,1949/07/01,350 E Fairmount Ave,Lakewood,NY,14750,0888421576
+373,Danny Glover,1946/07/22,66-4 Parkhurst Rd,Chelmsford,MA,1824,0583066941
+374,Anthony C Zinni,1943/09/17,2575 Us Hwy 43,Winfield,AL,35594,0003183797
+375,Louise Woodward,1978/02/28,890 Odum Road,Gardendale,AL,35071,0927356546
+376,Claude Lemieux,1965/07/16,1011 US Hwy 72 East,Athens,AL,35611,0024688859
+377,Richard C Shelby,1934/05/06,209 Lakeshore Parkway,Homewood,AL,35209,0299660656
+378,Jim Calhoun,1942/05/10,677 Timpany Blvd,Gardner,MA,1440,0199138225
+379,Frederic Chopin,1810/03/01,550 Providence Hwy,Walpole,MA,2081,0596131275
+380,Robert Gottlieb,1931/04/29,262 Swansea Mall Dr,Swansea,MA,2777,0664757081
+381,Joseph Estrada,1937/04/19,750 Academy Drive,Bessemer,AL,35022,0533488551
+382,Mickey Mantle,1931/10/20,155 Waterford Parkway No,Waterford,CT,6385,0601955197
+383,John Paul Stevens,1920/04/20,625 School Street,Putnam,CT,6260,0865937340
+384,Lena Horne,1917/06/30,555 East Main St,Orange,MA,1364,0040264795
+385,Benazir Bhutto,1953/06/21,690 Hwy 78,Sumiton,AL,35148,0725330933
+386,Shira A Scheindlin,1946/01/01,1400 County Rd 64,Horseheads,NY,14845,0557725081
+387,James P Hoffa,1941/05/09,155 Waterford Parkway No,Waterford,CT,6385,0022799917
+388,Conrad Burns,1935/01/25,55 Brooksby Village Way,Danvers,MA,1923,0953003177
+389,Louis Uchitelle,1932/03/21,165 Vaughan Ln,Pell City,AL,35125,0238858428
+390,Robert A Durst,1943/01/01,42417 Hwy 195,Haleyville,AL,35565,0981540319
+391,Kweisi Mfume,1948/10/24,742 Main Street,North Oxford,MA,1537,0860118056
+392,Brian Billick,1954/02/28,1011 US Hwy 72 East,Athens,AL,35611,0480730269
+393,Emmylou Harris,1947/04/02,425 Route 31,Macedon,NY,14502,0531605340
+394,Ricky Rudd,1956/09/12,10710 Chantilly Pkwy,Montgomery,AL,36117,0021014652
+395,Richard Taruskin,1945/01/01,233 5th Ave Ext,Johnstown,NY,12095,0525441269
+396,Robert M Morgenthau,1919/07/31,10675 Hwy 5,Brent,AL,35034,0249714728
+397,Donny Deutsch,1957/11/22,301 Falls Blvd,Quincy,MA,2169,0542134960
+398,Leon E Panetta,1938/06/28,4538 Us Hwy 231,Wetumpka,AL,36092,0098393600
+399,Benicio Del Toro,1967/02/19,555 East Main St,Orange,MA,1364,0814206726
+400,Albert C Barnes,1872/01/02,1000 State Route 36,Hornell,NY,14843,0077382829
+401,Lakhdar Brahimi,1934/01/01,170 Fort Morgan Road,Gulf Shores,AL,36542,0724139723
+402,David Zinman,1936/07/09,27520 Hwy 98,Daphne,AL,36526,0353101930
+403,Saad Eddin Ibrahim,1938/12/03,2200 South Mckenzie St,Foley,AL,36535,0363503343
+404,David Beckham,1975/05/02,2900 S Mem PkwyDrake Ave,Huntsville,AL,35801,0080340228
+405,Khaleda Zia,1946/08/15,100 Elm Ridge Center Dr,Greece,NY,14626,0877947018
+406,Virginia Postrel,1960/01/14,450 Highland Ave,Salem,MA,1970,0075691612
+407,Jim Furyk,1970/05/12,3222 State Rt 11,Malone,NY,12953,0386727730
+408,John Travolta,1954/02/18,2200 South Mckenzie St,Foley,AL,36535,0856793995
+409,Dexter Filkins,1961/01/01,780 Lynnway,Lynn,MA,1905,0756707483
+410,Paul Tergat,1969/06/17,450 Highland Ave,Salem,MA,1970,0299159802
+411,Susan Stroman,1954/10/17,220 Salem Turnpike,Norwich,CT,6360,0129981529
+412,Rex Ryan,1962/12/13,352 Palmer Road,Ware,MA,1082,0910400597
+413,Yasir Arafat,1929/08/24,43 Stephenville St,Massena,NY,13662,0729397075
+414,Barbara S Jones,1947/01/01,200 Dutch Meadows Ln,Glenville,NY,12302,0083998058
+415,Joseph Stalin,1878/12/18,2400 Route 9,Fishkill,NY,12524,0165730284
+416,Larry King,1933/11/19,200 Sunrise Mall,Massapequa,NY,11758,0758090945
+417,Buck Showalter,1956/05/23,465 Bridgeport Avenue,Shelton,CT,6484,0337514105
+418,Karen W Arenson,NA,5245 Rangeline Service Rd,Mobile,AL,36619,0192206643
+419,Muhammad Dahlan,1961/01/01,150 Barnum Avenue Cutoff,Stratford,CT,6614,0066790262
+420,Sammy Sosa,1968/11/12,103 North Caroline St,Herkimer,NY,13350,0501045881
+421,Igor S Ivanov,1945/09/23,750 Academy Drive,Bessemer,AL,35022,0462325153
+422,John D Negroponte,1939/07/21,2181 Pelham Pkwy,Pelham,AL,35124,0089559293
+423,Oscar Peterson,1925/08/15,165 Vaughan Ln,Pell City,AL,35125,0620761527
+424,Charlton Heston,1923/10/04,235 Queen St,Southington,CT,6489,0817204019
+425,Lawton Chiles,1930/04/03,969 Us Hwy 80 West,Demopolis,AL,36732,0930607300
+426,Jake Gyllenhaal,1980/12/19,2643 Hwy 280 West,Alexander City,AL,35010,0376908547
+427,Orville Schell,1940/05/20,2453 2Nd Avenue East,Oneonta,AL,35121,0513985493
+428,Maria Aspan,1982/01/01,10040 County Road 48,Fairhope,AL,36533,0038825614
+429,George Wein,1925/10/03,155 Waterford Parkway No,Waterford,CT,6385,0711324062
+430,Tony Hillerman,1925/05/27,685 Schillinger Rd,Mobile,AL,36695,0098790179
+431,Ethan Mordden,1949/01/27,69 Prospect Hill Road,East Windsor,CT,6088,0869920274
+432,Jim Duquette,1966/01/01,1775 Washington St,Hanover,MA,2339,0942124502
+433,Tony Bennett,1926/08/03,6265 Brockport Spencerport Rd,Brockport,NY,14420,0375382696
+434,David D McKiernan,1950/12/11,3176 South Eufaula Avenue,Eufaula,AL,36027,0920293211
+435,Myles Brand,1942/05/17,1775 Washington St,Hanover,MA,2339,0960810357
+436,Henry Akinwande,1965/10/12,301 Falls Blvd,Quincy,MA,2169,0059227273
+437,Anthony D Marshall,1924/05/30,1365 Boston Post Road,Milford,CT,6460,0019553120
+438,John M Shalikashvili,1936/06/27,41301 US Hwy 280,Sylacauga,AL,35150,0342419291
+439,J R R Tolkien,1892/01/03,5783 So Transit Road,Lockport,NY,14094,0158154138
+440,Kevin Garnett,1976/05/19,5710 Mcfarland Blvd,Northport,AL,35476,0423573536
+441,Gian Carlo Menotti,1911/07/07,120 Commercial Parkway,Branford,CT,6405,0343625605
+442,Olof Palme,1927/01/30,2900 Pepperrell Pkwy,Opelika,AL,36801,0273792994
+443,William Hurt,1950/03/20,626 Olive Street Sw,Cullman,AL,35055,0255010150
+444,John Gross,1935/03/12,1100 New Haven Road,Naugatuck,CT,6770,0515434050
+445,Steve Strunsky,1923/01/01,3371 S Alabama Ave,Monroeville,AL,36460,0024301705
+446,Oksana Baiul,1977/11/16,100 Elm Ridge Center Dr,Greece,NY,14626,0531512398
+447,Alfred Brendel,1931/01/05,4975 Transit Rd,Lancaster,NY,14086,0571829496
+448,James Lee Witt,1944/01/06,352 Palmer Road,Ware,MA,1082,0256411107
+449,Groucho Marx,1890/10/02,5919 Trussville Crossings Pkwy,Birmingham,AL,35235,0850756663
+450,Judith Nathan,1954/12/16,233 5th Ave Ext,Johnstown,NY,12095,0216078093
+451,Aslan Maskhadov,1951/09/21,200 Otis Street,Northborough,MA,1532,0984819406
+452,Nick Hornby,1957/04/17,30 Catskill,Catskill,NY,12414,0528575491
+453,Tino Martinez,1967/12/07,1201 Rt 300,Newburgh,NY,12550,0831007415
+454,Sam Nunn,1938/09/08,200 Dutch Meadows Ln,Glenville,NY,12302,0825640464
+455,Keith Reddin,1956/07/07,5560 Mcclellan Blvd,Anniston,AL,36206,0041754460
+456,John R Kasich,1952/05/13,1608 W Magnolia Ave,Geneva,AL,36340,0853344308
+457,Sonia Sotomayor,1954/06/25,1706 Military Street South,Hamilton,AL,35570,0373069931
+458,Howard Gardner,1943/07/11,337 Russell St,Hadley,MA,1035,0232726437
+459,Gray Davis,1942/12/26,6140A Univ Drive,Huntsville,AL,35806,0334806083
+460,Mahmoud Abbas,1935/03/26,1950 W Main St,Centre,AL,35960,0754517681
+461,Horton Foote,1916/03/14,340 East Meighan Blvd,Gadsden,AL,35903,0659343257
+462,Norman Pearlstine,1942/10/04,677 Timpany Blvd,Gardner,MA,1440,0188656643
+463,Arthur Ochs Sulzberger,1926/02/05,2300 Dixwell Ave,Hamden,CT,6514,0449339088
+464,Gunter Grass,1927/10/16,3300 South Oates Street,Dothan,AL,36301,0865610447
+465,Andrew S Eristoff,1963/02/20,830 Curran Memorial Hwy,North Adams,MA,1247,0077492289
+466,William Shakespeare,1564/01/01,2181 Pelham Pkwy,Pelham,AL,35124,0078441715
+467,Tovah Feldshuh,1952/12/27,9248 Parkway East,Birmingham,AL,35206,0681498694
+468,Jonathan Lippman,1945/05/19,6140A Univ Drive,Huntsville,AL,35806,0443778216
+469,Fife Symington,1945/08/12,297 Grant Avenue,Auburn,NY,13021,0550071221
+470,Niall Ferguson,1964/04/18,13675 Hwy 43,Russellville,AL,35653,0804547927
+471,Mumia Abu-Jamal,1954/04/24,297 Grant Avenue,Auburn,NY,13021,0402666423
+472,Yasuo Fukuda,1936/07/16,1007 Red Farmer Drive,Hueytown,AL,35023,0060100467
+473,Alexander Payne,1961/02/10,1450 No Brindlee Mtn Pkwy,Arab,AL,35016,0069852172
+474,Garry Shandling,1949/11/29,288 Larkin,Monroe,NY,10950,0521925007
+475,Warner Leroy,1935/03/03,2001 Glenn Bldv Sw,Fort Payne,AL,35968,0702008351
+476,Elisa Izquierdo,1989/02/11,3300 South Oates Street,Dothan,AL,36301,0824076861
+477,Hoshyar Zebari,1953/01/01,170 Fort Morgan Road,Gulf Shores,AL,36542,0247238841
+478,Marian Seldes,1928/08/23,420 Buckland Hills Dr,Manchester,CT,6040,0692433451
+479,Willem de Kooning,1904/04/24,4206 N College Ave,Jackson,AL,36545,0573074677
+480,Ronald Steel,1931/03/25,1972 Hwy 431,Boaz,AL,35957,0624327730
+481,Saad Eddin Ibrahim,1938/12/03,2473 Hackworth Road,Adamsville,AL,35005,0887510785
+482,Foday Sankoh,1937/10/17,700 Oak Street,Brockton,MA,2301,0767436663
+483,Zubin Mehta,1936/04/29,515 Sawmill Road,West Haven,CT,6516,0600557607
+484,Jeremy Piven,1965/07/26,3164 Berlin Turnpike,Newington,CT,6111,0980575243
+485,Sally Mann,1951/01/01,579 Troy-Schenectady Road,Latham,NY,12110,0420679897
+486,Milt Bearden,1940/01/01,2181 Pelham Pkwy,Pelham,AL,35124,0368808024
+487,Charles B Rangel,1930/06/11,220 Salem Turnpike,Norwich,CT,6360,0894851045
+488,Don Cheadle,1964/11/29,6350 Cottage Hill Road,Mobile,AL,36609,0696727351
+489,Vaclav Klaus,1941/06/19,135 Fairgrounds Memorial Pkwy,Ithaca,NY,14850,0826348644
+490,Marc Racicot,1948/07/24,1903 Cobbs Ford Rd,Prattville,AL,36066,0793293380
+491,Alan K Simpson,1931/09/02,2575 Us Hwy 43,Winfield,AL,35594,0339007617
+492,Laura Bush,1946/11/04,11610 Memorial Pkwy South,Huntsville,AL,35803,0968687165
+493,Jessye Norman,1945/09/15,11610 Memorial Pkwy South,Huntsville,AL,35803,0821066669
+494,Rick Moody,1961/10/18,5919 Trussville Crossings Pkwy,Birmingham,AL,35235,0756319352
+495,Mitchell E Jr Daniels,1949/04/07,742 Main Street,North Oxford,MA,1537,0510106347
+496,Henri Matisse,1869/12/31,25737 US Rt 11,Evans Mills,NY,13637,0678659496
+497,Mahathir Mohamad,1925/07/10,474 Boston Post Road,North Windham,CT,6256,0908925105
+498,Abdullah Gul,1950/10/29,25737 US Rt 11,Evans Mills,NY,13637,0225827149
+499,Jane Harman,1945/06/28,13675 Hwy 43,Russellville,AL,35653,0459327469
+500,Viswanathan Anand,1969/12/11,7155 State Rt 12 S,Lowville,NY,13367,0208984712
+501,Judy Collins,1939/05/01,9248 Parkway East,Birmingham,AL,35206,0202056875
+502,Raul Alfonsin,1927/03/12,3300 South Oates Street,Dothan,AL,36301,0210941926
+503,Mikheil Saakashvili,1967/12/21,5245 Rangeline Service Rd,Mobile,AL,36619,0790837256
+504,Diane von Furstenberg,1946/12/31,750 Middle Country Road,Middle Island,NY,11953,0559582349
+505,Foday Sankoh,1937/10/17,6140A Univ Drive,Huntsville,AL,35806,0939329145
+506,Charlie Rose,1942/01/05,120 Commercial Parkway,Branford,CT,6405,0090166503
+507,Morton Feldman,1926/01/12,506 State Road,North Dartmouth,MA,2747,0522052562
+508,Gunter Grass,1927/10/16,100 Elm Ridge Center Dr,Greece,NY,14626,0183039012
+509,Letty Cottin Pogrebin,1939/06/09,1400 County Rd 64,Horseheads,NY,14845,0237701506
+510,Monica Seles,1973/12/02,180 River Rd,Lisbon,CT,6351,0344694161
+511,Jonathan Demme,1944/02/22,1095 Industrial Pkwy,Saraland,AL,36571,0752083152
+512,Lorin Maazel,1930/03/06,20 Soojian Dr,Leicester,MA,1524,0766008158
+513,Olivier Messiaen,1908/12/10,30 Memorial Drive,Avon,MA,2322,0092387936
+514,Vince Carter,1977/01/26,67 Newton Rd,Danbury,CT,6810,0849476640
+515,Ruben Sierra,1965/10/06,4206 N College Ave,Jackson,AL,36545,0270071353
+516,F W de Klerk,1936/03/18,165 Vaughan Ln,Pell City,AL,35125,0742763246
+517,Judy Davis,1955/04/23,7155 State Rt 12 S,Lowville,NY,13367,0510150986
+518,Joshua Bell,1967/12/09,1450 No Brindlee Mtn Pkwy,Arab,AL,35016,0777181929
+519,Nicholas Kulish,1975/01/01,851 Ann St,Montgomery,AL,36107,0135541177
+520,Glen Sather,1943/09/02,100 Charlton Road,Sturbridge,MA,1566,0284037768
+521,LaMont Jordan,1978/11/11,2041 Douglas Avenue,Brewton,AL,36426,0550893971
+522,George Vecsey,1939/07/04,4180 Us Hwy 431,Roanoke,AL,36274,0660922404
+523,Peter Guber,1942/03/01,10040 County Road 48,Fairhope,AL,36533,0605918612
+524,James B McDougal,1940/08/25,777 Brockton Avenue,Abington,MA,2351,0132047798
+525,Ernie Els,1969/10/17,200 Otis Street,Northborough,MA,1532,0900589438
+526,Rocco Landesman,1947/07/20,233 5th Ave Ext,Johnstown,NY,12095,0855787173
+527,Anthony Depalma,1904/10/12,3501 20th Av,Valley,AL,36854,0209637746
+528,Ronnie Musgrove,1956/07/29,2900 S Mem PkwyDrake Ave,Huntsville,AL,35801,0793255635
+529,Jose Luis Rodriguez Zapatero,1960/08/04,3176 South Eufaula Avenue,Eufaula,AL,36027,0930071445
+530,David M Brown,1956/04/16,901 Route 110,Farmingdale,NY,11735,0985363393
+531,Bill Pulsipher,1973/10/09,279 Troy Road,East Greenbush,NY,12061,0188008350
+532,Reginald Denny,NA,220 Salem Turnpike,Norwich,CT,6360,0943397118
+533,Paul Tracy,1968/12/17,13858 Rt 31 W,Albion,NY,14411,0236451825
+534,Anton Chekhov,1860/01/29,200 Otis Street,Northborough,MA,1532,0790245294
+535,Bobby Holik,1971/01/01,750 Academy Drive,Bessemer,AL,35022,0647080574
+536,Art Spiegelman,1948/02/15,5783 So Transit Road,Lockport,NY,14094,0647328200
+537,Edward I Koch,1924/12/12,701 Mcmeans Ave,Bay Minette,AL,36507,0768971210
+538,Jennifer 8 Lee,1976/03/15,1970 S University Blvd,Mobile,AL,36609,0162093117
+539,Anwar Ibrahim,1947/08/10,85 Crooked Hill Road,Commack,NY,11725,0969435634
+540,Candace Parker,1986/04/19,495 Flatbush Ave,Hartford,CT,6106,0593261794
+541,Diane Whipple,NA,2055 Niagara Falls Blvd,Amherst,NY,14228,0798684733
+542,C Michael Armstrong,1938/10/18,742 Main Street,North Oxford,MA,1537,0727050582
+543,David Rohde,1967/01/01,742 Main Street,North Oxford,MA,1537,0656825507
+544,George F Will,1941/05/04,30 Memorial Drive,Avon,MA,2322,0287487914
+545,Richard Rodgers,1902/06/28,85 Crooked Hill Road,Commack,NY,11725,0216276384
+546,Rey Ordonez,1971/11/11,2453 2Nd Avenue East,Oneonta,AL,35121,0987140549
+547,Martin T Meehan,1956/12/30,352 Palmer Road,Ware,MA,1082,0585894224
+548,Roger E Ailes,1940/05/15,103 North Caroline St,Herkimer,NY,13350,0790792154
+549,Condoleezza Rice,1954/11/14,11610 Memorial Pkwy South,Huntsville,AL,35803,0874013333
+550,Roy E Disney,1930/01/10,11610 Memorial Pkwy South,Huntsville,AL,35803,0547117096
+551,Hector Camacho,1962/05/24,474 Boston Post Road,North Windham,CT,6256,0416990516
+552,Julie Bosman,NA,1105 Boston Road,Springfield,MA,1119,0619486874
+553,David Pelletier,1974/11/22,1903 Cobbs Ford Rd,Prattville,AL,36066,0765306212
+554,Ted Hughes,1930/08/17,1501 Hwy 14 East,Selma,AL,36703,0416685791
+555,Jeffrey Katzenberg,1950/12/21,420 Buckland Hills Dr,Manchester,CT,6040,0353774138
+556,Milton Babbitt,1916/05/10,13675 Hwy 43,Russellville,AL,35653,0250384073
+557,Helmut Newton,1920/10/31,1201 Rt 300,Newburgh,NY,12550,0810395701
+558,Anthony Trollope,1815/04/24,7855 Moffett Rd,Semmes,AL,36575,0553773413
+559,Dan Reeves,1944/01/19,2500 Dawes Road,Mobile,AL,36695,0922975477
+560,NA Hussein I,1935/11/14,1501 Hwy 14 East,Selma,AL,36703,0037500762
+561,John Irving,1942/03/02,3186 Hwy 171 North,Fayette,AL,35555,0920170671
+562,Sarah Hughes,1985/05/02,67 Newton Rd,Danbury,CT,6810,0958062718
+563,James Woods,1947/04/18,145 Kelley Blvd,Millbrook,AL,36054,0800215092
+564,Jeromy Burnitz,1969/04/15,8064 Brewerton Rd,Cicero,NY,13039,0850156760
+565,Burt Reynolds,1936/02/11,42417 Hwy 195,Haleyville,AL,35565,0929800495
+566,Fred Astaire,1899/05/10,1501 Hwy 14 East,Selma,AL,36703,0776782905
+567,Wadih El-Hage,1960/07/25,1365 Boston Post Road,Milford,CT,6460,0682088578
+568,Ernie Irvan,1959/01/13,3949 Route 31,Clay,NY,13041,0058090388
+569,Jonathan Lethem,1964/02/19,4206 N College Ave,Jackson,AL,36545,0547422654
+570,Cynthia Rowley,1958/07/29,1180 Fall River Avenue,Seekonk,MA,2771,0493174647
+571,I Leo Glasser,1924/04/06,3164 Berlin Turnpike,Newington,CT,6111,0769170805
+572,Steven Berkoff,1937/08/03,6140A Univ Drive,Huntsville,AL,35806,0881114900
+573,James Naughton,1945/12/06,2200 Sparkman Drive,Huntsville,AL,35810,0668570759
+574,Jane Alexander,1939/10/28,5335 Hwy 280 South,Hoover,AL,35242,0588617990
+575,Stanley Tucci,1960/11/11,41 Anawana Lake Road,Monticello,NY,12701,0771646698
+576,Ronald Steel,1931/03/25,1100 New Haven Road,Naugatuck,CT,6770,0211444888
+577,Louise M Slaughter,1929/08/14,1300 Gilmer Ave,Tallassee,AL,36078,0728762748
+578,Don Imus,1940/07/23,11610 Memorial Pkwy South,Huntsville,AL,35803,0408498399
+579,Lucio Gutierrez,1957/03/23,1300 Gilmer Ave,Tallassee,AL,36078,0630421920
+580,Christa Worthington,1956/12/23,5360 Southwestern Blvd,Hamburg,NY,14075,0665633558
+581,Graeme Lloyd,1967/04/09,262 Swansea Mall Dr,Swansea,MA,2777,0181809172
+582,Jack Kerouac,1922/03/12,340 East Meighan Blvd,Gadsden,AL,35903,0804999992
+583,Don DeLillo,1936/11/20,901 Route 110,Farmingdale,NY,11735,0928297181
+584,Sherwin B Nuland,1930/12/08,30 Catskill,Catskill,NY,12414,0799034599
+585,John Gross,1935/03/12,101 South Beltline Highway,Mobile,AL,36606,0742899445
+586,William Julius Wilson,1935/12/20,701 Mcmeans Ave,Bay Minette,AL,36507,0885685088
+587,George Clooney,1961/05/06,1011 US Hwy 72 East,Athens,AL,35611,0348130093
+588,John J LaFalce,1939/10/06,10710 Chantilly Pkwy,Montgomery,AL,36117,0109930412
+589,Damien Hirst,1965/06/07,990 Route 5 20,Geneva,NY,14456,0222808276
+590,Albert Einstein,1879/03/14,1950 W Main St,Centre,AL,35960,0830925031
+591,John Allen Muhammad,1960/12/31,1095 Industrial Pkwy,Saraland,AL,36571,0318130817
+592,Theodor Seuss Geisel,1904/03/02,6495 Atlanta Hwy,Montgomery,AL,36117,0727996705
+593,Jeremy Irons,1948/09/19,2780 John Hawkins Pkwy,Hoover,AL,35244,0134696664
+594,Katie Hafner,1957/01/01,1450 No Brindlee Mtn Pkwy,Arab,AL,35016,0864555252
+595,Stephen S Roach,1945/09/16,1400 Farmington Ave,Bristol,CT,6010,0553007033
+596,Mike Krzyzewski,1947/02/13,4133 Veterans Memorial Drive,Batavia,NY,14020,0323336538
+597,Bobby Bonilla,1963/02/23,1420 Us 231 South,Troy,AL,36081,0835303791
+598,Bill Keller,1949/01/18,1501 Hwy 14 East,Selma,AL,36703,0394572225
+599,Ariel Sharon,1928/02/26,34301 Hwy 43,Thomasville,AL,36784,0476965429
+600,August Wilson,1945/04/27,1972 Hwy 431,Boaz,AL,35957,0746555500
+601,Alfred Kazin,1915/06/05,3700 Hwy 280-431 N,Phenix City,AL,36867,0322148358
+602,Elizabeth Holtzman,1941/08/11,2300 Dixwell Ave,Hamden,CT,6514,0621464608
+603,Arnold S Relman,1923/06/17,297 Grant Avenue,Auburn,NY,13021,0668917850
+604,Jose Saramago,1922/11/16,3501 20th Av,Valley,AL,36854,0812772091
+605,Peter S Kalikow,1942/12/01,3300 South Oates Street,Dothan,AL,36301,0636074464
+606,Tsuyoshi Shinjo,1972/01/28,288 Larkin,Monroe,NY,10950,0438363089
+607,David Caruso,1956/01/07,2001 Glenn Bldv Sw,Fort Payne,AL,35968,0970910432
+608,Colin Farrell,1976/05/31,5783 So Transit Road,Lockport,NY,14094,0268082415
+609,Katie Hafner,1957/01/01,3133 E Main St,Mohegan Lake,NY,10547,0980658609
+610,Anna Quindlen,1952/07/08,1180 Fall River Avenue,Seekonk,MA,2771,0918463622
+611,Jerry Bailey,1957/08/29,4206 N College Ave,Jackson,AL,36545,0930041208
+612,Theodor Seuss Geisel,1904/03/02,85 Crooked Hill Road,Commack,NY,11725,0786935638
+613,Joel B Steinberg,1941/05/25,1818 State Route 3,Fulton,NY,13069,0789550531
+614,Robert B Zoellick,1953/07/25,1105 Boston Road,Springfield,MA,1119,0171768942
+615,Thomas E White,1943/12/14,297 Grant Avenue,Auburn,NY,13021,0435981867
+616,Rufus Wainwright,1973/07/22,579 Troy-Schenectady Road,Latham,NY,12110,0175931178
+617,Tom Freston,1945/11/22,161 Centereach Mall,Centereach,NY,11720,0952438712
+618,Daniel K Inouye,1924/09/07,680 Connecticut Avenue,Norwalk,CT,6854,0190622130
+619,Bruce Springsteen,1949/09/23,2900 Pepperrell Pkwy,Opelika,AL,36801,0313524792
+620,Lionel Tate,1987/01/30,8650 Madison Blvd,Madison,AL,35758,0909092207
+621,Lindsay Davenport,1976/06/08,374 William S Canning Blvd,Fall River,MA,2721,0501190081
+622,Patti Smith,1946/12/30,851 Ann St,Montgomery,AL,36107,0614229562
+623,Joe Orton,1933/01/01,3371 S Alabama Ave,Monroeville,AL,36460,0773049063
+624,Richard Brookhiser,1955/02/23,2473 Hackworth Road,Adamsville,AL,35005,0966431792
+625,Michael John LaChiusa,1962/07/24,830 Curran Memorial Hwy,North Adams,MA,1247,0125902719
+626,Bob Hope,1903/05/29,2473 Hackworth Road,Adamsville,AL,35005,0862997571
+627,Richard P Mills,1944/11/28,42 Fairhaven Commons Way,Fairhaven,MA,2719,0049881359
+628,Anita Brookner,1928/07/16,135 Fairgrounds Memorial Pkwy,Ithaca,NY,14850,0254920344
+629,Alexander Calder,1898/07/22,374 William S Canning Blvd,Fall River,MA,2721,0005255707
+630,Augusto Pinochet Ugarte,1915/11/25,1549 Rt 9,Halfmoon,NY,12065,0914430676
+631,Samuel L Jackson,1948/12/21,495 Flatbush Ave,Hartford,CT,6106,0029120236
+632,Carlos Saul Menem,1930/07/02,1300 Montgomery Highway,Vestavia Hills,AL,35216,0582406623
+633,Willie Mays,1931/05/06,161 Centereach Mall,Centereach,NY,11720,0292749517
+634,Donald Sutherland,1935/07/17,280 Washington Street,Hudson,MA,1749,0495160054
+635,Benazir Bhutto,1953/06/21,7855 Moffett Rd,Semmes,AL,36575,0934677491
+636,Reggie White,1961/12/19,1201 Hwy 31 NW,Hartselle,AL,35640,0545809538
+637,Roy E Disney,1930/01/10,311 RT 9W,Glenmont,NY,12077,0382602772
+638,Shimon Peres,1923/08/02,150 Springville Station Blvd,Springville,AL,35146,0960798587
+639,Mohammed Zahir Shah,1914/10/15,15445 Highway 24,Moulton,AL,35650,0724846512
+640,George Stephanopoulos,1961/02/10,5335 Hwy 280 South,Hoover,AL,35242,0319423511
+641,Kendall Gill,1968/05/25,2780 John Hawkins Pkwy,Hoover,AL,35244,0784052885
+642,Barry R McCaffrey,1942/11/17,2001 Glenn Bldv Sw,Fort Payne,AL,35968,0211254199
+643,Ryutaro Hashimoto,1937/07/29,11610 Memorial Pkwy South,Huntsville,AL,35803,0400204276
+644,John Barth,1930/05/27,2200 South Mckenzie St,Foley,AL,36535,0588524220
+645,Milton Friedman,1912/07/31,3176 South Eufaula Avenue,Eufaula,AL,36027,0590529831
+646,Idina Menzel,1971/05/30,2181 Pelham Pkwy,Pelham,AL,35124,0927232666
+647,Anne Heche,1969/05/25,680 Connecticut Avenue,Norwalk,CT,6854,0637182446
+648,Tyson Gay,1982/08/09,70 Pleasant Valley Street,Methuen,MA,1844,0593409286
+649,Khalid Khannouchi,1971/09/12,3176 South Eufaula Avenue,Eufaula,AL,36027,0538359280
+650,Joseph Jett,1958/01/01,872 Route 13,Cortlandville,NY,13045,0855255542
+651,Tony la Russa,1944/10/04,70 Pleasant Valley Street,Methuen,MA,1844,0908163088
+652,Richard G Lugar,1932/04/04,5335 Hwy 280 South,Hoover,AL,35242,0376035622
+653,Tony Gwynn,1960/05/09,517 West Avalon Ave,Muscle Shoals,AL,35661,0531212211
+654,Anne Heche,1969/05/25,540 West Bypass,Andalusia,AL,36420,0968333968
+655,Ozzy Osbourne,1948/12/03,650 Main Ave,Norwalk,CT,6851,0842179233
+656,Barbara Boxer,1940/11/11,164 Danbury Rd,New Milford,CT,6776,0477547106
+657,David Cameron,1966/10/09,262 Swansea Mall Dr,Swansea,MA,2777,0824788897
+658,Burhanuddin Rabbani,1940/09/20,1775 Washington St,Hanover,MA,2339,0357583751
+659,Ned Rorem,1923/10/23,200 Dutch Meadows Ln,Glenville,NY,12302,0784985905
+660,Laura Miller,1958/11/18,1916 Center Point Rd,Center Point,AL,35215,0806693587
+661,Clint Mathis,1976/11/25,139 Merchant Place,Cobleskill,NY,12043,0362703201
+662,NA Rockefeller Family,NA,4300 Lakeville Road,Geneseo,NY,14454,0943665283
+663,Charles Kushner,1954/05/16,101 Sanford Farm Shpg Center,Amsterdam,NY,12010,0812843286
+664,Stephanie Strom,NA,280 Washington Street,Hudson,MA,1749,0394423521
+665,Curt Schilling,1966/11/14,890 Odum Road,Gardendale,AL,35071,0554444616
+666,Mikheil Saakashvili,1967/12/21,851 Ann St,Montgomery,AL,36107,0369852427
+667,Pat Hurst,1969/05/23,5245 Rangeline Service Rd,Mobile,AL,36619,0864308511
+668,Dan Quayle,1947/02/04,5399 W Genesse St,Camillus,NY,13031,0799215642
+669,James E Rogan,1957/08/21,101 South Beltline Highway,Mobile,AL,36606,0487874239
+670,Larry McMurtry,1936/06/03,103 North Caroline St,Herkimer,NY,13350,0333912506
+671,Rafik Hariri,1944/11/01,30 Catskill,Catskill,NY,12414,0062171698
+672,Fay Weldon,1931/09/22,24833 Johnt Reidprkw,Scottsboro,AL,35768,0085082478
+673,Albert Shanker,1928/09/14,3005 Cranberry Hwy Rt 6 28,Wareham,MA,2538,0781076406
+674,John Cheever,1912/05/27,517 West Avalon Ave,Muscle Shoals,AL,35661,0079065217
+675,Stephanie Strom,NA,3186 Hwy 171 North,Fayette,AL,35555,0599200073
+676,Wilbur L Jr Ross,1937/11/28,27520 Hwy 98,Daphne,AL,36526,0454880318
+677,Billy Bob Thornton,1955/08/04,337 Russell St,Hadley,MA,1035,0022440757
+678,Arnoldo Aleman,1946/01/23,10675 Hwy 5,Brent,AL,35034,0245679530
+679,Jerome Charyn,1937/05/13,55 Brooksby Village Way,Danvers,MA,1923,0031335579
+680,Jose Eduardo Dos Santos,1942/08/28,13675 Hwy 43,Russellville,AL,35653,0809791404
+681,Lola Ogunnaike,NA,311 RT 9W,Glenmont,NY,12077,0484778931
+682,Betsy Gotbaum,1938/06/11,8064 Brewerton Rd,Cicero,NY,13039,0214247985
+683,Jerrold Nadler,1947/06/13,30 Catskill,Catskill,NY,12414,0713979387
+684,Sheryl Crow,1962/02/11,470 Route 211 East,Middletown,NY,10940,0008284730
+685,Joshua B Bolten,1954/08/16,214 Haynes Street,Talladega,AL,35160,0716588436
+686,Frank J Prial,1930/11/04,6140A Univ Drive,Huntsville,AL,35806,0568285534
+687,Lionel Hampton,1908/04/20,85 Crooked Hill Road,Commack,NY,11725,0719563159
+688,Letty Cottin Pogrebin,1939/06/09,4310 Montgomery Hwy,Dothan,AL,36303,0846822794
+689,Roger L Green,NA,4765 Commercial Drive,New Hartford,NY,13413,0001455635
+690,Patricia Ireland,1945/10/19,155 Waterford Parkway No,Waterford,CT,6385,0460714687
+691,Keanu Reeves,1964/09/02,4975 Transit Rd,Lancaster,NY,14086,0256423569
+692,Annette Bening,1958/05/29,6140A Univ Drive,Huntsville,AL,35806,0649297791
+693,John Irving,1942/03/02,1105 Boston Road,Springfield,MA,1119,0008322218
+694,Alan Ayckbourn,1939/04/12,36 Paramount Drive,Raynham,MA,2767,0368965751
+695,Bill Parcells,1941/08/22,233 5th Ave Ext,Johnstown,NY,12095,0516780125
+696,John Smoltz,1967/05/15,2575 Us Hwy 43,Winfield,AL,35594,0287294836
+697,Andrea Elliott,1972/12/14,200 Dutch Meadows Ln,Glenville,NY,12302,0191158262
+698,Chris DiMarco,1968/08/23,3300 South Oates Street,Dothan,AL,36301,0492742225
+699,Kate Spade,1962/12/24,517 West Avalon Ave,Muscle Shoals,AL,35661,0271291470
+700,Lyle Lovett,1957/11/01,2453 2Nd Avenue East,Oneonta,AL,35121,0229134934
+701,Jon Stewart,1962/11/28,6265 Brockport Spencerport Rd,Brockport,NY,14420,0552481488
+702,Mae West,1893/08/17,890 Odum Road,Gardendale,AL,35071,0865142761
+703,Dwight David Eisenhower,1890/10/14,910 Wolcott St,Waterbury,CT,6705,0777236199
+704,Antonio McDyess,1974/09/07,180 River Rd,Lisbon,CT,6351,0751279833
+705,John P Walters,1952/02/08,15445 Highway 24,Moulton,AL,35650,0917809944
+706,Boris Trajkovski,1956/06/25,101 South Beltline Highway,Mobile,AL,36606,0764783595
+707,James Taylor,1948/03/12,2575 Us Hwy 43,Winfield,AL,35594,0578850465
+708,Serena Williams,1981/09/26,5033 Transit Road,Clarence,NY,14031,0524874577
+709,John Burnham Schwartz,1965/01/01,685 Schillinger Rd,Mobile,AL,36695,0100966889
+710,Paul S Sarbanes,1933/02/03,150 Barnum Avenue Cutoff,Stratford,CT,6614,0796070333
+711,Kitty Kelley,1942/04/04,1717 South College Street,Auburn,AL,36830,0450906327
+712,Abraham D Beame,1906/03/20,121 Worcester Rd,Framingham,MA,1701,0614967390
+713,Lothar Matthaus,1961/03/21,340 East Meighan Blvd,Gadsden,AL,35903,0115504595
+714,Lynndie R England,1982/11/08,43 Stephenville St,Massena,NY,13662,0941234902
+715,Anna Sui,1964/08/04,2041 Douglas Avenue,Brewton,AL,36426,0671763683
+716,Douglas Carter Beane,NA,690 Hwy 78,Sumiton,AL,35148,0985150296
+717,Virginia Heffernan,1969/08/08,2473 Hackworth Road,Adamsville,AL,35005,0798272959
+718,John D Bates,1946/10/11,337 Russell St,Hadley,MA,1035,0836759233
+719,Thomas Mann,1875/06/06,352 Palmer Road,Ware,MA,1082,0475006639
+720,Ernest F Hollings,1922/01/01,465 Bridgeport Avenue,Shelton,CT,6484,0809127887
+721,Phil Mickelson,1970/06/16,677 Timpany Blvd,Gardner,MA,1440,0891327972
+722,Edward Villella,1936/10/01,8551 Whitfield Ave,Leeds,AL,35094,0163952061
+723,Moises Alou,1966/07/03,465 Bridgeport Avenue,Shelton,CT,6484,0258263639
+724,Kevin Costner,1955/01/18,20 Soojian Dr,Leicester,MA,1524,0309381602
+725,Tom Hayden,1939/12/11,170 Fort Morgan Road,Gulf Shores,AL,36542,0538809185
+726,Melvyn I Weiss,1935/08/01,330 Sutton Rd,Huntsville,AL,35763,0414867164
+727,Peter Guber,1942/03/01,10040 County Road 48,Fairhope,AL,36533,0567890134
+728,Paul Rudnick,1957/12/29,220 Salem Turnpike,Norwich,CT,6360,0821474549
+729,Sol Wachtler,1930/04/29,340 East Meighan Blvd,Gadsden,AL,35903,0570005610
+730,Christiane Amanpour,1958/01/12,6265 Brockport Spencerport Rd,Brockport,NY,14420,0546471170
+731,Randy Cunningham,1941/12/08,1470 S Washington St,North Attleboro,MA,2760,0511469384
+732,Michael R Gordon,NA,5033 Transit Road,Clarence,NY,14031,0268097866
+733,Herb Brooks,1937/08/05,4765 Commercial Drive,New Hartford,NY,13413,0413237350
+734,Elizabeth Crow,1946/07/29,67 Newton Rd,Danbury,CT,6810,0897956145
+735,Kenneth Roth,NA,600 Boll Weevil Circle,Enterprise,AL,36330,0467860280
+736,Richard P Mills,1944/11/28,517 West Avalon Ave,Muscle Shoals,AL,35661,0990691899
+737,David A Paterson,1954/05/20,1608 W Magnolia Ave,Geneva,AL,36340,0615146436
+738,Kevin Harvick,1975/12/08,656 New Haven Ave,Derby,CT,6418,0954327267
+739,Laurence H Tribe,1941/10/10,4300 Lakeville Road,Geneseo,NY,14454,0582977671
+740,Charlie Crist,1956/07/24,297 Grant Avenue,Auburn,NY,13021,0771451682
+741,Tucker Carlson,1969/05/16,465 Bridgeport Avenue,Shelton,CT,6484,0854339441
+742,Sani Abacha,1943/09/20,501 Willow Lane,Greenville,AL,36037,0575950986
+743,Lenny Bruce,1925/10/13,80 Town Line Rd,Rocky Hill,CT,6067,0247658321
+744,Carleton S Fiorina,1954/09/06,5100 Hwy 31,Calera,AL,35040,0355222522
+745,Ernesto Perez Balladares,1946/06/29,2200 South Mckenzie St,Foley,AL,36535,0343130875
+746,Peter Maas,1929/06/27,1972 Hwy 431,Boaz,AL,35957,0963488224
+747,Kent Graham,1968/11/01,1400 Farmington Ave,Bristol,CT,6010,0268986772
+748,Dylan Klebold,NA,1415 7Th Street South,Clanton,AL,35045,0217235407
+749,David A Paterson,1954/05/20,600 Boll Weevil Circle,Enterprise,AL,36330,0261664666
+750,Elliott Abrams,1948/01/24,2200 Sparkman Drive,Huntsville,AL,35810,0285331479
+751,Todd Zeile,1965/09/09,10401 Bennett Road,Fredonia,NY,14063,0659023403
+752,Ramzan Kadyrov,1976/10/05,1537 Hwy 231 South,Ozark,AL,36360,0873888013
+753,Andrew Johnson,1808/12/29,139 Merchant Place,Cobleskill,NY,12043,0669858333
+754,John Landis,1950/08/03,591 Memorial Dr,Chicopee,MA,1020,0826261571
+755,Johannes Brahms,1833/05/07,1180 Fall River Avenue,Seekonk,MA,2771,0064583179
+756,Korey Stringer,1974/05/08,3700 Hwy 280-431 N,Phenix City,AL,36867,0905297289
+757,Joanne Woodward,1930/02/27,120 Commercial Parkway,Branford,CT,6405,0642143870
+758,Ron Silver,1946/07/02,7100 Aaron Aronov Drive,Fairfield,AL,35064,0570095535
+759,Pascal Lamy,1947/04/08,969 Us Hwy 80 West,Demopolis,AL,36732,0689631245
+760,Frank J Macchiarola,1941/04/07,120 Commercial Parkway,Branford,CT,6405,0666356642
+761,Britney Spears,1981/12/02,677 Timpany Blvd,Gardner,MA,1440,0919216005
+762,Ethan Bronner,1954/01/01,150 Springville Station Blvd,Springville,AL,35146,0031031130
+763,Diane Whipple,NA,100 Thruway Plaza,Cheektowaga,NY,14225,0817450380
+764,Bill Pulsipher,1973/10/09,85 Crooked Hill Road,Commack,NY,11725,0146012318
+765,Jonathan Safran Foer,1977/02/21,235 Queen St,Southington,CT,6489,0718088012
+766,Ben Nighthorse Campbell,1933/04/13,555 East Main St,Orange,MA,1364,0396966656
+767,I M Pei,1917/04/26,4975 Transit Rd,Lancaster,NY,14086,0950325651
+768,Jacob G Zuma,1942/04/12,1201 Rt 300,Newburgh,NY,12550,0677525093
+769,Marian Wright Edelman,1939/06/06,3164 Berlin Turnpike,Newington,CT,6111,0817266214
+770,Ira Glasser,1938/01/01,655 Boston Post Rd,Old Saybrook,CT,6475,0977791552
+771,Marcel Duchamp,1887/07/28,550 Providence Hwy,Walpole,MA,2081,0039962346
+772,Steven A Pagones,NA,3018 East Ave,Central Square,NY,13036,0208626799
+773,Jay Payton,1975/11/22,250 Hartford Avenue,Bellingham,MA,2019,0011483739
+774,Jerome Kerviel,1977/01/11,2200 South Mckenzie St,Foley,AL,36535,0001346154
+775,Ethan Bronner,1954/01/01,3801 Eastern Blvd,Montgomery,AL,36116,0779239026
+776,Frank R Lautenberg,1924/01/23,2001 Glenn Bldv Sw,Fort Payne,AL,35968,0756292784
+777,Jessica Simpson,1980/07/10,161 Centereach Mall,Centereach,NY,11720,0589739557
+778,Fay Weldon,1931/09/22,1420 Us 231 South,Troy,AL,36081,0452698830
+779,Jim Courier,1970/08/17,650 Main Ave,Norwalk,CT,6851,0322217432
+780,Robert S Bennett,1939/01/01,100 Thruway Plaza,Cheektowaga,NY,14225,0198028471
+781,Harry B Helmsley,1909/03/04,2300 Dixwell Ave,Hamden,CT,6514,0456882111
+782,Don Johnson,1949/12/15,301 Falls Blvd,Quincy,MA,2169,0670129945
+783,LeBron James,1984/12/30,200 Dutch Meadows Ln,Glenville,NY,12302,0375841324
+784,Alice Munro,1931/07/10,1537 Hwy 231 South,Ozark,AL,36360,0441153336
+785,Franklin Graham,1952/07/14,280 Washington Street,Hudson,MA,1749,0946371497
+786,Cole Porter,1891/06/09,161 Centereach Mall,Centereach,NY,11720,0153693375
+787,Edward Burns,1968/01/29,550 Providence Hwy,Walpole,MA,2081,0162788706
+788,Isaiah Berlin,1909/06/06,13675 Hwy 43,Russellville,AL,35653,0022550917
+789,Danny Meyer,1958/03/14,625 School Street,Putnam,CT,6260,0393692911
+790,Trey Parker,1969/10/19,6265 Brockport Spencerport Rd,Brockport,NY,14420,0072104324
+791,Raymond W Smith,NA,141 Washington Ave Extension,Albany,NY,12205,0789483622
+792,Phil Gramm,1942/07/08,901 Route 110,Farmingdale,NY,11735,0082608066
+793,Thomas Quasthoff,1959/11/09,150 Barnum Avenue Cutoff,Stratford,CT,6614,0684151981
+794,Leon Hess,1914/03/13,1970 S University Blvd,Mobile,AL,36609,0317485806
+795,Floyd H Flake,1945/01/30,315 Foxon Blvd,New Haven,CT,6513,0756543465
+796,Harry Thomason,1940/01/01,374 William S Canning Blvd,Fall River,MA,2721,0331095022
+797,Charles M Schulz,NA,2643 Hwy 280 West,Alexander City,AL,35010,0224857301
+798,James Lapine,1949/01/10,555 East Main St,Orange,MA,1364,0582911993
+799,Joe Montana,1956/06/11,121 Worcester Rd,Framingham,MA,1701,0838875849
+800,Carolyn B Maloney,1946/02/19,9248 Parkway East,Birmingham,AL,35206,0680122199
+801,Roberto Micheletti,1943/08/13,43 Stephenville St,Massena,NY,13662,0114598917
+802,Jonathan Lippman,1945/05/19,67 Newton Rd,Danbury,CT,6810,0282015530
+803,Lance Armstrong,1971/09/18,3100 Hough Rd,Florence,AL,35630,0422620413
+804,Bill Richardson,1947/11/15,3133 E Main St,Mohegan Lake,NY,10547,0823998617
+805,Rudolph W Giuliani,1944/05/28,677 Timpany Blvd,Gardner,MA,1440,0840849453
+806,Arnold Schoenberg,1874/09/13,1801 Hwy 78 East,Jasper,AL,35501,0324892775
+807,Kenneth D Kaunda,1924/04/28,600 Boll Weevil Circle,Enterprise,AL,36330,0966945377
+808,Royce C Lamberth,1943/07/16,262 Swansea Mall Dr,Swansea,MA,2777,0398355155
+809,Otto Schily,1932/07/20,5245 Rangeline Service Rd,Mobile,AL,36619,0474763221
+810,Irving Penn,1917/06/16,2473 Hackworth Road,Adamsville,AL,35005,0247005907
+811,Dick Ebersol,1947/07/28,1950 W Main St,Centre,AL,35960,0082927630
+812,Andrew Wyeth,1917/07/12,350 E Fairmount Ave,Lakewood,NY,14750,0883184830
+813,Nicholas Confessore,NA,1950 W Main St,Centre,AL,35960,0445741609
+814,Adrian Lyne,1941/03/04,990 Route 5 20,Geneva,NY,14456,0608917238
+815,Shaul Mofaz,1948/11/04,555 Hubbard Ave-Suite 12,Pittsfield,MA,1201,0529576533
+816,David Falk,1950/01/01,250 Rt 59,Airmont,NY,10901,0200298666
+817,Peter Bart,1932/07/24,92 Plaza Lane,Oxford,AL,36203,0859538685
+818,Nicholas Christopher,1951/01/01,5919 Trussville Crossings Pkwy,Birmingham,AL,35235,0768279303
+819,Strom Thurmond,1902/12/05,1365 Boston Post Road,Milford,CT,6460,0170255184
+820,C Michael Armstrong,1938/10/18,66-4 Parkhurst Rd,Chelmsford,MA,1824,0668773738
+821,Larry Gelbart,1928/02/25,2200 Sparkman Drive,Huntsville,AL,35810,0637689112
+822,Thomas S Gulotta,1944/04/27,555 East Main St,Orange,MA,1364,0179421475
+823,Christopher Plummer,1929/12/13,85 Crooked Hill Road,Commack,NY,11725,0805206643
+824,Dick Armey,1940/07/07,2041 Douglas Avenue,Brewton,AL,36426,0102144352
+825,Margaret Cho,1968/12/05,3300 South Oates Street,Dothan,AL,36301,0446276391
+826,Jean Carnahan,1933/12/20,1501 Skyland Blvd E,Tuscaloosa,AL,35405,0567376220
+827,Nykesha Sales,1976/05/10,2473 Hackworth Road,Adamsville,AL,35005,0486571524
+828,Ruth Laredo,1937/11/20,34301 Hwy 43,Thomasville,AL,36784,0733259956
+829,John W Rowe,NA,4180 Us Hwy 431,Roanoke,AL,36274,0895009890
+830,Jean Paul Gaultier,1952/04/24,910 Wolcott St,Waterbury,CT,6705,0622738907
+831,NA Li Peng,1928/10/20,420 Buckland Hills Dr,Manchester,CT,6040,0366136548
+832,Helen Hunt,1963/06/15,10401 Bennett Road,Fredonia,NY,14063,0491660806
+833,Mario Batali,1960/09/19,180 River Rd,Lisbon,CT,6351,0595344754
+834,Junya Watanabe,NA,27520 Hwy 98,Daphne,AL,36526,0614191267
+835,Howard Eisley,1972/12/04,685 Schillinger Rd,Mobile,AL,36695,0857556344
+836,Laurence H Silberman,1935/10/12,890 Odum Road,Gardendale,AL,35071,0569104555
+837,Gerard Schwarz,1947/08/19,11697 US Hwy 431,Guntersville,AL,35976,0181317930
+838,Larry Flynt,1942/11/01,8650 Madison Blvd,Madison,AL,35758,0136802755
+839,Rajiv Gandhi,1944/08/20,1100 New Haven Road,Naugatuck,CT,6770,0463196851
+840,Howard Eisley,1972/12/04,7100 Aaron Aronov Drive,Fairfield,AL,35064,0561051414
+841,Kurt Warner,1971/06/22,340 East Meighan Blvd,Gadsden,AL,35903,0875617229
+842,Hassan Nasrallah,1960/08/31,3300 South Oates Street,Dothan,AL,36301,0214822299
+843,Bernardo Bertolucci,1940/03/16,135 Fairgrounds Memorial Pkwy,Ithaca,NY,14850,0680732973
+844,Auguste Rodin,1840/11/12,25737 US Rt 11,Evans Mills,NY,13637,0186114208
+845,Lindsay Lohan,1986/07/02,3186 Hwy 171 North,Fayette,AL,35555,0393412855
+846,Margo Jefferson,1947/10/17,141 Washington Ave Extension,Albany,NY,12205,0164411373
+847,Regis Philbin,1931/08/25,7855 Moffett Rd,Semmes,AL,36575,0901708441
+848,Mike Freeman,NA,1537 Hwy 231 South,Ozark,AL,36360,0284578879
+849,David Kaczynski,1949/10/03,333 Main Street,Tewksbury,MA,1876,0716316791
+850,NA Pol Pot,1925/05/19,625 School Street,Putnam,CT,6260,0362246763
+851,Baz Luhrmann,1962/09/17,16077 Highway 280,Chelsea,AL,35043,0219202715
+852,Mwai Kibaki,1931/11/15,101 South Beltline Highway,Mobile,AL,36606,0257016909
+853,Marshall Faulk,1973/02/26,139 Merchant Place,Cobleskill,NY,12043,0110748538
+854,William T Esrey,1940/01/01,43 Stephenville St,Massena,NY,13662,0090174409
+855,Natan Sharansky,1948/01/20,601 Frank Stottile Blvd,Kingston,NY,12401,0820228506
+856,Abner Louima,1966/01/01,139 Merchant Place,Cobleskill,NY,12043,0996371466
+857,Marylou Whitney,1925/12/24,890 Odum Road,Gardendale,AL,35071,0604313839
+858,Ted Cottrell,1947/06/13,80 Town Line Rd,Rocky Hill,CT,6067,0948307197
+859,Damien Hirst,1965/06/07,70 Pleasant Valley Street,Methuen,MA,1844,0025337440
+860,Ron Low,1950/06/21,3501 20th Av,Valley,AL,36854,0340705164
+861,Dennis Rodman,1961/05/13,973 Gilbert Ferry Road Se,Attalla,AL,35954,0212448537
+862,Tracy Letts,1965/07/04,1470 S Washington St,North Attleboro,MA,2760,0768664062
+863,Suleyman Demirel,1924/11/01,10040 County Road 48,Fairhope,AL,36533,0388268147
+864,Matt Drudge,1966/10/27,180 North King Street,Northhampton,MA,1060,0662022740
+865,Margaret Spellings,1957/11/30,5245 Rangeline Service Rd,Mobile,AL,36619,0653424635
+866,Cecilia Bartoli,1966/06/04,2200 Sparkman Drive,Huntsville,AL,35810,0872399725
+867,Samuel Ramey,1942/03/28,121 Worcester Rd,Framingham,MA,1701,0333000116
+868,Morton Feldman,1926/01/12,262 Swansea Mall Dr,Swansea,MA,2777,0179882674
+869,Bret D Schundler,NA,742 Main Street,North Oxford,MA,1537,0877301440
+870,Mike Milbury,1952/06/17,5335 Hwy 280 South,Hoover,AL,35242,0154878545
+871,Neil MacFarquhar,NA,550 Providence Hwy,Walpole,MA,2081,0910154989
+872,Luciano Pavarotti,1935/10/12,844 No Colony Road,Wallingford,CT,6492,0666134400
+873,Alexander Hamilton,1755/01/11,6495 Atlanta Hwy,Montgomery,AL,36117,0602011873
+874,Curt Schilling,1966/11/14,4538 Us Hwy 231,Wetumpka,AL,36092,0177040294
+875,James E McGreevey,1957/08/06,161 Berlin Road,Cromwell,CT,6416,0654004690
+876,Christopher J Dodd,1944/05/27,200 Sunrise Mall,Massapequa,NY,11758,0761385513
+877,Joshua B Bolten,1954/08/16,625 School Street,Putnam,CT,6260,0119509152
+878,Nick Price,1957/01/28,1970 S University Blvd,Mobile,AL,36609,0066349944
+879,NA Jiang Zemin,1926/08/17,3018 East Ave,Central Square,NY,13036,0546635765
+880,Peter Nichols,1927/07/31,10401 Bennett Road,Fredonia,NY,14063,0373429986
+881,Jimmy Kimmel,1967/11/13,340 East Meighan Blvd,Gadsden,AL,35903,0167413127
+882,Jerry I Speyer,1940/06/23,2575 Us Hwy 43,Winfield,AL,35594,0815818206
+883,Roland Dumas,1922/08/23,6350 Cottage Hill Road,Mobile,AL,36609,0206889241
+884,Lawton Chiles,1930/04/03,139 Merchant Place,Cobleskill,NY,12043,0590312251
+885,Harold Pinter,1930/10/10,10675 Hwy 5,Brent,AL,35034,0998552745
+886,Sigmund Freud,1856/05/06,200 Dutch Meadows Ln,Glenville,NY,12302,0008957307
+887,Tara Lipinski,1982/06/10,465 Bridgeport Avenue,Shelton,CT,6484,0056553327
+888,Dan Flavin,1933/04/01,1903 Cobbs Ford Rd,Prattville,AL,36066,0971696921
+889,Joyce Carol Oates,1938/06/16,685 Schillinger Rd,Mobile,AL,36695,0404351674
+890,Emanuel Ax,1949/06/08,600 Boll Weevil Circle,Enterprise,AL,36330,0277301945
+891,Jeremy M Boorda,1939/11/26,165 Vaughan Ln,Pell City,AL,35125,0848069469
+892,Bill Dedman,1960/01/01,600 Boll Weevil Circle,Enterprise,AL,36330,0228585532
+893,Garry Marshall,1934/11/13,1180 Fall River Avenue,Seekonk,MA,2771,0848312194
+894,Jack Lemmon,1925/02/08,30 Memorial Drive,Avon,MA,2322,0690225769
+895,Doris Lessing,1919/10/22,515 Sawmill Road,West Haven,CT,6516,0306168655
+896,Andy Roddick,1982/08/30,2500 Dawes Road,Mobile,AL,36695,0762168247
+897,James A Kelly,1936/01/01,24833 Johnt Reidprkw,Scottsboro,AL,35768,0821219997
+898,Maurice Clarett,1983/10/29,1180 Fall River Avenue,Seekonk,MA,2771,0425002591
+899,Pavel P Borodin,1946/10/25,2900 Pepperrell Pkwy,Opelika,AL,36801,0578366967
+900,Mike Tyson,1966/06/30,214 Haynes Street,Talladega,AL,35160,0868653243
+901,Jimi Hendrix,1942/11/27,550 Providence Hwy,Walpole,MA,2081,0480699205
+902,John Ashbery,1927/07/28,9248 Parkway East,Birmingham,AL,35206,0401602326
+903,Jeff Daniels,1955/02/19,101 South Beltline Highway,Mobile,AL,36606,0072228344
+904,John Eliot Gardiner,1943/04/20,4765 Commercial Drive,New Hartford,NY,13413,0802151144
+905,Michael P Forbes,1952/07/16,7155 State Rt 12 S,Lowville,NY,13367,0971557451
+906,Charles Gwathmey,1938/06/19,501 Willow Lane,Greenville,AL,36037,0206021035
+907,Charlie Rose,1942/01/05,2300 Dixwell Ave,Hamden,CT,6514,0929423586
+908,Edgar Allan Poe,1809/01/19,4180 Us Hwy 431,Roanoke,AL,36274,0864531985
+909,Lori Helene Berenson,1969/11/13,2200 Sparkman Drive,Huntsville,AL,35810,0934958169
+910,Terry Teachout,1956/02/06,10710 Chantilly Pkwy,Montgomery,AL,36117,0569919126
+911,Andres Pastrana,1954/08/17,2181 Pelham Pkwy,Pelham,AL,35124,0298732178
+912,David Toms,1967/01/04,1775 Washington St,Hanover,MA,2339,0044682500
+913,Frank Rich,1949/06/02,141 Washington Ave Extension,Albany,NY,12205,0659135551
+914,Richard J Durbin,1944/11/21,1903 Cobbs Ford Rd,Prattville,AL,36066,0052642995
+915,Nikita S Khrushchev,1894/04/15,5335 Hwy 280 South,Hoover,AL,35242,0558214831
+916,Cruz Bustamante,1953/01/04,890 Odum Road,Gardendale,AL,35071,0242398695
+917,Albert Camus,1913/11/07,8551 Whitfield Ave,Leeds,AL,35094,0682399936
+918,G Oliver Koppell,1940/12/15,970 Torringford Street,Torrington,CT,6790,0306447598
+919,Drew Nieporent,NA,4133 Veterans Memorial Drive,Batavia,NY,14020,0602262630
+920,Tsuyoshi Shinjo,1972/01/28,4300 Lakeville Road,Geneseo,NY,14454,0540950733
+921,Charles Kuralt,1934/09/10,701 Mcmeans Ave,Bay Minette,AL,36507,0600361774
+922,Betty Friedan,1921/02/04,1801 Hwy 78 East,Jasper,AL,35501,0717267106
+923,John F Jr Welch,1935/11/19,13675 Hwy 43,Russellville,AL,35653,0781586137
+924,Arthur Laurents,1918/07/14,25737 US Rt 11,Evans Mills,NY,13637,0718265373
+925,Joan Nathan,NA,100 Thruway Plaza,Cheektowaga,NY,14225,0178377219
+926,Nydia M Velazquez,1953/03/28,1717 South College Street,Auburn,AL,36830,0349796407
+927,Eero Saarinen,1910/08/20,1970 S University Blvd,Mobile,AL,36609,0557365456
+928,Cherie Blair,1954/09/23,600 Boll Weevil Circle,Enterprise,AL,36330,0046734147
+929,Paul Kariya,1974/10/16,777 Brockton Avenue,Abington,MA,2351,0852839963
+930,John A Boehner,1949/11/17,3222 State Rt 11,Malone,NY,12953,0541002043
+931,David Cronenberg,1943/03/15,742 Main Street,North Oxford,MA,1537,0514135673
+932,Giuseppe Verdi,1813/10/10,141 Washington Ave Extension,Albany,NY,12205,0958996809
+933,NA Pol Pot,1925/05/19,2400 Route 9,Fishkill,NY,12524,0964494762
+934,Patty Schnyder,1978/12/14,1095 Industrial Pkwy,Saraland,AL,36571,0179389178
+935,Michael P Anderson,1959/12/25,24833 Johnt Reidprkw,Scottsboro,AL,35768,0062688798
+936,NA John Paul II,1920/05/18,5783 So Transit Road,Lockport,NY,14094,0164133457
+937,Bob Taft,1942/01/08,3018 East Ave,Central Square,NY,13036,0310049341
+938,Hans Tietmeyer,1931/08/18,10401 Bennett Road,Fredonia,NY,14063,0041996260
+939,Abu Zubaydah,1971/03/12,591 Memorial Dr,Chicopee,MA,1020,0764636803
+940,Frank Litsky,NA,15445 Highway 24,Moulton,AL,35650,0631736807
+941,David Hicks,1975/08/07,2181 Pelham Pkwy,Pelham,AL,35124,0696956809
+942,Donald T Difrancesco,1944/11/20,100 Thruway Plaza,Cheektowaga,NY,14225,0561027686
+943,Branford Marsalis,1960/08/26,301 Massachusetts Ave,Lunenburg,MA,1462,0915815793
+944,Langston Hughes,1902/02/01,330 Sutton Rd,Huntsville,AL,35763,0436149174
+945,Garry Kasparov,1963/04/13,137 Teaticket Hwy,East Falmouth,MA,2536,0329008685
+946,Barbara Kingsolver,1955/04/08,150 Gold Star Hwy,Groton,CT,6340,0642772426
+947,Sandra Bernhard,1955/06/06,7855 Moffett Rd,Semmes,AL,36575,0301858607
+948,Ute Lemper,1963/07/04,121 Worcester Rd,Framingham,MA,1701,0972393934
+949,Bill Janklow,1939/09/13,350 E Fairmount Ave,Lakewood,NY,14750,0080047783
+950,Theodore E McCarrick,1930/07/07,20 Soojian Dr,Leicester,MA,1524,0655572265
+951,Colin Davis,1927/09/25,420 Buckland Hills Dr,Manchester,CT,6040,0199115802
+952,Alfred Uhry,1936/12/03,890 Odum Road,Gardendale,AL,35071,0631674598
+953,Joan Nathan,NA,3176 South Eufaula Avenue,Eufaula,AL,36027,0745442654
+954,Willem Dafoe,1955/07/22,250 Rt 59,Airmont,NY,10901,0019891444
+955,Lleyton Hewitt,1981/02/24,579 Troy-Schenectady Road,Latham,NY,12110,0167497500
+956,John Grisham,1955/02/08,5100 Hwy 31,Calera,AL,35040,0570600360
+957,Peter Sellars,1957/09/27,591 Memorial Dr,Chicopee,MA,1020,0642340379
+958,Diego Rivera,1886/12/08,540 West Bypass,Andalusia,AL,36420,0227733156
+959,James A III Baker,1930/04/28,2453 2Nd Avenue East,Oneonta,AL,35121,0900410693
+960,Livan Hernandez,1975/02/20,4300 Lakeville Road,Geneseo,NY,14454,0598793880
+961,John Kander,1927/03/18,2181 Pelham Pkwy,Pelham,AL,35124,0693642923
+962,Raul Mondesi,1971/03/12,990 Route 5 20,Geneva,NY,14456,0725436951
+963,Ernest Hemingway,1899/07/21,1095 Industrial Pkwy,Saraland,AL,36571,0249760992
+964,Marion S Jr Barry,1936/03/06,55 Brooksby Village Way,Danvers,MA,1923,0318700644
+965,Dick Clark,1929/11/30,601 Frank Stottile Blvd,Kingston,NY,12401,0869784111
+966,Yevgeny Plushenko,1982/11/03,425 Route 31,Macedon,NY,14502,0353474911
+967,Souad Mekhennet,1978/01/01,100 Elm Ridge Center Dr,Greece,NY,14626,0973785442
+968,Jeff Gerth,NA,465 Bridgeport Avenue,Shelton,CT,6484,0609824553
+969,Jack Straw,1946/08/03,1400 Farmington Ave,Bristol,CT,6010,0088080874
+970,Nadja Salerno-Sonnenberg,1961/01/10,600 Boll Weevil Circle,Enterprise,AL,36330,0768710688
+971,Vladimir A Gusinsky,1952/10/06,121 Worcester Rd,Framingham,MA,1701,0828470419
+972,Althea Gibson,1927/08/25,2001 Glenn Bldv Sw,Fort Payne,AL,35968,0312814043
+973,Jerry Reinsdorf,1936/02/25,1717 South College Street,Auburn,AL,36830,0958432438
+974,Yves Saint Laurent,NA,3222 State Rt 11,Malone,NY,12953,0696926255
+975,Michael Arad,1969/01/01,10675 Hwy 5,Brent,AL,35034,0559483568
+976,Clarence Jr Norman,1951/08/25,844 No Colony Road,Wallingford,CT,6492,0254145876
+977,Dario Fo,1926/03/24,506 State Road,North Dartmouth,MA,2747,0404755341
+978,Heath Ledger,1979/04/04,200 Otis Street,Northborough,MA,1532,0592074880
+979,Scott McClellan,1968/02/14,155 Waterford Parkway No,Waterford,CT,6385,0335095549
+980,Sammy Sosa,1968/11/12,6495 Atlanta Hwy,Montgomery,AL,36117,0350636270
+981,Albert Costa,1975/06/25,164 Danbury Rd,New Milford,CT,6776,0753241785
+982,James Earl Ray,1928/03/10,13675 Hwy 43,Russellville,AL,35653,0698837320
+983,Charles J Hynes,1935/05/28,155 Waterford Parkway No,Waterford,CT,6385,0552605977
+984,Edwin W Edwards,1927/08/07,2200 South Mckenzie St,Foley,AL,36535,0873275349
+985,Mamdouh Mahmud Salim,1958/01/01,6350 Cottage Hill Road,Mobile,AL,36609,0767300783
+986,Nadine Gordimer,1923/11/23,139 Merchant Place,Cobleskill,NY,12043,0527937674
+987,Lorne Michaels,1944/11/17,591 Memorial Dr,Chicopee,MA,1020,0120162676
+988,David Mamet,1947/11/30,701 Mcmeans Ave,Bay Minette,AL,36507,0018463084
+989,Sean Bell,NA,910 Wolcott St,Waterbury,CT,6705,0092831143
+990,Larry Kramer,1935/06/25,1000 State Route 36,Hornell,NY,14843,0752321204
+991,Bob Dole,1923/07/22,2200 Sparkman Drive,Huntsville,AL,35810,0109396431
+992,Andrew S Grove,1936/09/02,7155 State Rt 12 S,Lowville,NY,13367,0928164528
+993,Steven A Ballmer,1956/03/24,42 Fairhaven Commons Way,Fairhaven,MA,2719,0774487945
+994,A R Gurney,1930/11/01,474 Boston Post Road,North Windham,CT,6256,0537162535
+995,August Strindberg,1849/01/22,250 Hartford Avenue,Bellingham,MA,2019,0006420813
+996,C Vivian Stringer,1948/03/16,55 Brooksby Village Way,Danvers,MA,1923,0870246165
+997,Pavel Bure,1971/03/31,1100 New Haven Road,Naugatuck,CT,6770,0888009618
+998,Jerry Rice,1962/10/13,1400 Farmington Ave,Bristol,CT,6010,0352096917
+999,Patricia C Dunn,1953/03/27,1625 Pelham South,Jacksonville,AL,36265,0057937437
+1000,C J Hunter,1968/12/14,3371 S Alabama Ave,Monroeville,AL,36460,0299356276

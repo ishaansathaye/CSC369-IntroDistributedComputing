@@ -13,7 +13,7 @@ import java.io.FileWriter;
 public class Store {
 
     // createStoreFile: create a file named store.csv
-    public static void createStoreFile() {
+    public static void createStoreFile(Integer numStores) {
         // Create a file named store.txt
         File file = new File("lab1/store.csv");
         try {
@@ -35,7 +35,7 @@ public class Store {
             ArrayList<String> storeNames = readStoreNames(storeNamesFile);
             ArrayList<String[]> addresses = readAddresses(addressesFile);
 
-            writeStoreCSV(outputFile, addresses, storeNames, 100);
+            writeStoreCSV(outputFile, addresses, storeNames, numStores);
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
@@ -57,7 +57,7 @@ public class Store {
     }
 
     // readAddresses: read address, city, state, zip from addresses.csv
-    private static ArrayList<String[]> readAddresses(String filePath) throws IOException {
+    public static ArrayList<String[]> readAddresses(String filePath) throws IOException {
         ArrayList<String[]> addresses = new ArrayList<String[]>();
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         String line;
@@ -71,7 +71,7 @@ public class Store {
     }
 
     // generateUniquePhoneNumber: generate a unique phone number
-    private static String generateUniquePhoneNumber(Set<String> phoneNumbers) {
+    public static String generateUniquePhoneNumber(Set<String> phoneNumbers) {
         Random random = new Random();
         String phoneNumber = "";
         do {
@@ -101,13 +101,13 @@ public class Store {
                 .append(",")
                 .append(storeName)
                 .append(",")
-                .append(addressData[0])
+                .append(addressData[0].replace("\"", ""))
                 .append(",")
-                .append(addressData[1])
+                .append(addressData[1].replace("\"", ""))
                 .append(",")
-                .append(addressData[2])
+                .append(addressData[2].replace("\"", ""))
                 .append(",")
-                .append(addressData[3])
+                .append(addressData[3].replace("\"", ""))
                 .append(",")
                 .append(phoneNumber)
                 .append("\n");
@@ -120,8 +120,8 @@ public class Store {
 
 
     public static void main(String[] args) {
-        // Create a file named store.txt
-        createStoreFile();
+        // Create a file named store.csv
+        createStoreFile(100);
     }
     
 }
