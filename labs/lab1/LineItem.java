@@ -7,7 +7,7 @@ public class LineItem {
 
     public static void createLineItemFile(int numLineItems) {
         // Create a file named sales.csv
-        File file = new File("lab1/sales.csv");
+        File file = new File("lab1/lineItems.csv");
         try {
             if (file.createNewFile()) {
                 System.out.println("File created: " + file.getName());

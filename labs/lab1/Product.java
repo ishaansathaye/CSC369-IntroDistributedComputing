@@ -27,7 +27,7 @@ public class Product {
 
             ArrayList<String[]> productNamePrice = readProducts(productsFile);
 
-            writeProductsCSV(outputFile, numProducts);
+            writeProductsCSV(outputFile, productNamePrice, numProducts);
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
@@ -48,11 +48,11 @@ public class Product {
         return productNamePrice;
     }
 
-    private static void writeProductsCSV(String filePath, int numProducts) throws IOException {
+    private static void writeProductsCSV(String filePath, ArrayList<String[]> productNamePrice, int numProducts)
+            throws IOException {
         FileWriter writer = new FileWriter(filePath);
         writer.write("ID,description,price\n");
         Random rand = new Random();
-        ArrayList<String[]> productNamePrice = readProducts("lab1/data/laptops.csv");
         for (int i = 1; i <= numProducts; i++) {
             String[] product = productNamePrice.get(rand.nextInt(productNamePrice.size()));
             product[0] = product[0].replace("\"", "");
