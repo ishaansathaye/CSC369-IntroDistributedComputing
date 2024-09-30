@@ -24,41 +24,14 @@ public class Sales {
         // There should be at least 1 sale for every customer and every store
         String outputFile = "lab1/sales.csv";
         try {
-            ArrayList<String[]> storeIDs = readStoreIDs("lab1/store.csv");
-            ArrayList<String[]> customerIDs = readCustomerIDs("lab1/customer.csv");
 
-            writeSalesCSV(outputFile, storeIDs, customerIDs, numSales);
+            writeSalesCSV(outputFile, numSales);
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
     }
 
-    private static ArrayList<String[]> readStoreIDs(String filePath) throws IOException {
-        ArrayList<String[]> storeIDs = new ArrayList<String[]>();
-        BufferedReader reader = new BufferedReader(new FileReader(filePath));
-        String line;
-        reader.readLine(); // skip the header
-        while ((line = reader.readLine()) != null) {
-            String[] values = line.split(",");
-            storeIDs.add(new String[] {values[0].trim()});
-        }
-        reader.close();
-        return storeIDs;
-    }
-
-    private static ArrayList<String[]> readCustomerIDs(String filePath) throws IOException {
-        ArrayList<String[]> customerIDs = new ArrayList<String[]>();
-        BufferedReader reader = new BufferedReader(new FileReader(filePath));
-        String line;
-        reader.readLine(); // skip the header
-        while ((line = reader.readLine()) != null) {
-            String[] values = line.split(",");
-            customerIDs.add(new String[] {values[0].trim()});
-        }
-        reader.close();
-        return customerIDs;
-    }
 
     // Generate random time for each sale
     private static String generateRandomTime() {
@@ -69,7 +42,7 @@ public class Sales {
         return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 
-    private static void writeSalesCSV(String filePath, ArrayList<String[]> storeIDs, ArrayList<String[]> customerIDs, int numSales) throws IOException {
+    private static void writeSalesCSV(String filePath, int numSales) throws IOException {
         FileWriter writer = new FileWriter(filePath);
         writer.write("ID,date,time,storeID,customerID\n");
         Random rand = new Random();
@@ -77,20 +50,30 @@ public class Sales {
         ArrayList<String[]> namesDates = Customer.readNamesDates("lab1/data/birthdays.csv");
         ArrayList<String> dates = new ArrayList<String>();
         for (String[] nameDate : namesDates) {
-            dates.add(nameDate[2].replace("-", "/"));
+            String date = nameDate[2];
+            if (date.length() < 12) {
+                continue;
+            }
+            // Add the formatted date (replace '-' with '/')
+            dates.add(date.replace("-", "/"));
         }
-        
-        int storePointer = 0;
-        int customerPointer = 0;
-        
 
-        
+        // Store IDs go from 1 to 100
+        // Customer IDs go from 1 to 1000
+        for (int i = 1; i <= numSales; i++) {
+            String date = dates.get(rand.nextInt(dates.size()));
+            date = date.substring(1, date.length() - 1);
+            String time = generateRandomTime();
+            String storeID = Integer.toString(rand.nextInt(100) + 1);
+            String customerID = Integer.toString(rand.nextInt(1000) + 1);
+            writer.write(i + "," + date + "," + time + "," + storeID + "," + customerID + "\n");
+        }
+        writer.close();
     }
-        
 
     public static void main(String[] args) {
         // Create a file named sales.csv
         createSalesFile(2000);
     }
-    
+
 }

@@ -2,6 +2,7 @@
 
 ## Slides
 - [0 - Using Hadoop and Java](https://docs.google.com/presentation/d/1MJ10Xl_4CI0m0sRZV7fgejnmyCAH4qWe/edit#slide=id.p3)
+- [1 - Map/Reduce](https://docs.google.com/presentation/d/1CFfGHUuzZNVUfKejn_E3AVtR1p7046op/edit#slide=id.p4)
 
 ## Notes
 - [Hadoop and Java](notes/0_HadoopJava.md)
