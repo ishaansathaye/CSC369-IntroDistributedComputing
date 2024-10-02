@@ -99,7 +99,7 @@ public class Store {
             // Write data to file in csv format
             csvWriter.append(String.valueOf(i))
                 .append(",")
-                .append(storeName)
+                .append(storeName.replace("\"", ""))
                 .append(",")
                 .append(addressData[0].replace("\"", ""))
                 .append(",")

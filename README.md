@@ -1,6 +1,6 @@
 # CSC 369 Introduction to Distributed Computing
 
-## Slides
+## [Slides](https://drive.google.com/drive/folders/15f8oNQfrhNaNGEnIE2-QLQ7_O8go3B60)
 - [0 - Using Hadoop and Java](https://docs.google.com/presentation/d/1MJ10Xl_4CI0m0sRZV7fgejnmyCAH4qWe/edit#slide=id.p3)
 - [1 - Map/Reduce](https://docs.google.com/presentation/d/1CFfGHUuzZNVUfKejn_E3AVtR1p7046op/edit#slide=id.p4)
 
