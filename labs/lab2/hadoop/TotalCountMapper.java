@@ -16,10 +16,7 @@ public class TotalCountMapper extends
       if (tokens.length != 5) {
          return;
       }
-      context.write(new Text(tokens[1]), 
-                  new IntWritable(1));
-     //writes date and temperature
-     //single write, but we can have multiple writes to context
+      context.write(new Text(tokens[1]), new IntWritable(1));
    }
 }
 
