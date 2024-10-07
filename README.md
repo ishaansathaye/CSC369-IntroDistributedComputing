@@ -12,3 +12,8 @@
 ## Labs
 - [Lab 1 - Data Generation](labs/lab1/)
     - [Lab 1 Instructions](https://docs.google.com/document/d/1IZJ3BmwIFJFoxMhJ-pdHfGyYU1rzox7w/edit)
+- [Lab 2 - Total Sales](labs/lab2/)
+    - [Lab 2 Instructions](https://docs.google.com/document/d/1K-T44teE8fGD3-PdRWcSMnv6ewJBGX5b/edit)
+
+## Assignments
+- [Assignment 1](assignments/assignment1/assignment1.pdf)

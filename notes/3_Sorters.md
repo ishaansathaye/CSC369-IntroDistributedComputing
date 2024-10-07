@@ -12,3 +12,8 @@
     - also will define the sorting order on the composite key
 - create when we want to sort on something more than just the natural key
 
+## Exam Questions
+- Write the compareTo method
+- Know that if > 0 -> then object 1 is greater than object 2
+- Know that if < 0 -> then object 1 is less than object 2
+- Know that if == 0 -> then object 1 is equal to object 2
