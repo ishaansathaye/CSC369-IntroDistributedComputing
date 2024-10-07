@@ -16,8 +16,6 @@ public class TotalSales {
             String line;
             String[] data;
             HashMap<String, Integer> sales = new HashMap<String, Integer>();
-            // skip the header
-            reader.readLine();
             while ((line = reader.readLine()) != null) {
                 data = line.split(",");
                 // if date is in the hashmap, add +1 to the value

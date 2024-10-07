@@ -84,7 +84,8 @@ public class Store {
     // writeStoreCSV: write to store.csv
     private static void writeStoreCSV(String filePath, ArrayList<String[]> addresses, ArrayList<String> storeNames, int numEntries) throws IOException {
         FileWriter csvWriter = new FileWriter(filePath);
-        csvWriter.append("ID,storeName,address,city,ZIP,state,phoneNumber\n");
+        // Do not write header
+        // csvWriter.append("ID,storeName,address,city,ZIP,state,phoneNumber\n");
 
         Random random = new Random();
         // Unique phone numbers

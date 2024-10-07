@@ -51,7 +51,8 @@ public class Product {
     private static void writeProductsCSV(String filePath, ArrayList<String[]> productNamePrice, int numProducts)
             throws IOException {
         FileWriter writer = new FileWriter(filePath);
-        writer.write("ID,description,price\n");
+        // Do not write header
+        // writer.write("ID,description,price\n");
         Random rand = new Random();
         for (int i = 1; i <= numProducts; i++) {
             String[] product = productNamePrice.get(rand.nextInt(productNamePrice.size()));

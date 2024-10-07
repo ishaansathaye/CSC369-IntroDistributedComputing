@@ -52,7 +52,8 @@ public class Customer {
     // writeCustomerCSV: write customer.csv with ID, name, birthDate, address, city, ZIP, state, phoneNumber
     private static void writeCustomerCSV(String filePath, ArrayList<String[]> namesDates, ArrayList<String[]> addresses, int numCustomers) throws IOException {
         FileWriter writer = new FileWriter(filePath);
-        writer.write("ID,name,birthDate,address,city,zip,state,phoneNumber\n");
+        // Do not write header
+        // writer.write("ID,name,birthDate,address,city,zip,state,phoneNumber\n");
         Random rand = new Random();
         // Unique phone numbers
         Set<String> phoneNumbers = new HashSet<String>();

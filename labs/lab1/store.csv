@@ -1,101 +1,100 @@
-ID,storeName,address,city,ZIP,state,phoneNumber
-1,Macy's, Inc.,10710 Chantilly Pkwy,Montgomery,AL,36117,0039345282
-2,Ingles Markets, Inc.,41 Anawana Lake Road,Monticello,NY,12701,0988001299
-3,Yamada Denki Co., Ltd.,5100 Hwy 31,Calera,AL,35040,0445939576
-4,Tsuruha Holdings Inc.,3801 Eastern Blvd,Montgomery,AL,36116,0773488443
-5,Shoprite Holdings Ltd.,13858 Rt 31 W,Albion,NY,14411,0945836075
-6,Yamada Denki Co., Ltd.,333 Main Street,Tewksbury,MA,1876,0404274898
-7,H2O Retailing Corporation,42 Fairhaven Commons Way,Fairhaven,MA,2719,0179323723
-8,ICA Gruppen AB,1180 Fall River Avenue,Seekonk,MA,2771,0496932277
-9,Woolworths Limited,337 Russell St,Hadley,MA,1035,0061464168
-10,H & M Hennes & Mauritz AB,250 Rt 59,Airmont,NY,10901,0576166107
-11,S Group,780 Lynnway,Lynn,MA,1905,0010833514
-12,Grandvision N.V.,830 Curran Memorial Hwy,North Adams,MA,1247,0383645874
-13,C&A Europe,501 Willow Lane,Greenville,AL,36037,0387733826
-14,Sports Direct International plc,30 Memorial Drive,Avon,MA,2322,0132618329
-15,Whole Foods Market, Inc.,20 Soojian Dr,Leicester,MA,1524,0685292949
-16,Woolworths Limited,30 Catskill,Catskill,NY,12414,0929938064
-17,Giant Eagle, Inc.,235 Queen St,Southington,CT,6489,0440281906
-18,Shanghai Bailian Group Co., Ltd.,3949 Route 31,Clay,NY,13041,0436998604
-19,Academy Ltd. (dba Academy Sports +,626 Olive Street Sw,Cullman,AL,35055,0845915902
-20,Louis Delhaize S.A.,337 Russell St,Hadley,MA,1035,0283589752
-21,Co-operative Group Ltd.,1180 Fall River Avenue,Seekonk,MA,2771,0290384003
-22,Valor Holdings Co., Ltd.,1801 Hwy 78 East,Jasper,AL,35501,0566315013
-23,BİM Birleşik Mağazalar A.Ş.,501 Willow Lane,Greenville,AL,36037,0190312860
-24,Metro Inc.,101 South Beltline Highway,Mobile,AL,36606,0983639463
-25,Lotte Shopping Co., Ltd.,1970 S University Blvd,Mobile,AL,36609,0703974291
-26,NORMA Unternehmens Stiftung,6495 Atlanta Hwy,Montgomery,AL,36117,0260080723
-27,Wayfair, Inc.,1365 Boston Post Road,Milford,CT,6460,0259562653
-28,Bic Camera Inc.,312 Palisades Blvd,Birmingham,AL,35209,0419755588
-29,Foodstuffs North Island Ltd.,200 Sunrise Mall,Massapequa,NY,11758,0447921884
-30,Dollar Tree, Inc.,601 Frank Stottile Blvd,Kingston,NY,12401,0859013708
-31,Bic Camera Inc.,3164 Berlin Turnpike,Newington,CT,6111,0512147331
-32,Woolworths Limited,701 Mcmeans Ave,Bay Minette,AL,36507,0091064407
-33,H & M Hennes & Mauritz AB,495 Flatbush Ave,Hartford,CT,6106,0050808717
-34,Gruppo Eurospin,742 Main Street,North Oxford,MA,1537,0269395825
-35,Macy's, Inc.,1095 Industrial Pkwy,Saraland,AL,36571,0817698559
-36,Izumi Co., Ltd.,900 Boston Post Road,Guilford,CT,6437,0290075430
-37,H2O Retailing Corporation,10401 Bennett Road,Fredonia,NY,14063,0412147616
-38,Spar Holding AG,990 Route 5 20,Geneva,NY,14456,0074800876
-39,K's Holdings Corporation,700 Oak Street,Brockton,MA,2301,0717575447
-40,Apple Inc. / Apple Retail Stores,1501 Skyland Blvd E,Tuscaloosa,AL,35405,0696989156
-41,Bass Pro Group, LLC,101 Sanford Farm Shpg Center,Amsterdam,NY,12010,0115147041
-42,Foot Locker, Inc.,220 Salem Turnpike,Norwich,CT,6360,0848259419
-43,Zalando SE,2200 Sparkman Drive,Huntsville,AL,35810,0962440084
-44,PT Indomarco Prismatama (Indomaret),2473 Hackworth Road,Adamsville,AL,35005,0583636824
-45,Belk, Inc.,30 Catskill,Catskill,NY,12414,0460412773
-46,Shoprite Holdings Ltd.,312 Palisades Blvd,Birmingham,AL,35209,0464734940
-47,Williams-Sonoma, Inc.,255 W Main St,Avon,CT,6001,0608609758
-48,E.Land World Co., Ltd.,844 No Colony Road,Wallingford,CT,6492,0590475671
-49,NorgesGruppen ASA,233 5th Ave Ext,Johnstown,NY,12095,0316584557
-50,Wm Morrison Supermarkets PLC,1706 Military Street South,Hamilton,AL,35570,0284637149
-51,A101 Yeni Mağazacılık A.S,4538 Us Hwy 231,Wetumpka,AL,36092,0119609963
-52,Staples, Inc.,214 Haynes Street,Talladega,AL,35160,0640349663
-53,Hy-Vee, Inc.,742 Main Street,North Oxford,MA,1537,0493602598
-54,Aldi Einkauf GmbH & Co. oHG,910 Wolcott St,Waterbury,CT,6705,0618401603
-55,Stater Bros. Holdings Inc.,145 Kelley Blvd,Millbrook,AL,36054,0993267682
-56,Don Quijote Holdings Co., Ltd.,5919 Trussville Crossings Pkwy,Birmingham,AL,35235,0829337309
-57,C&A Europe,262 Swansea Mall Dr,Swansea,MA,2777,0242871279
-58,NORMA Unternehmens Stiftung,3222 State Rt 11,Malone,NY,12953,0870520226
-59,Dixons Carphone plc,656 New Haven Ave,Derby,CT,6418,0819973791
-60,Ulta Beauty, Inc (formerly Ulta Salon,,279 Troy Road,East Greenbush,NY,12061,0170286979
-61,Dufry AG,1201 Rt 300,Newburgh,NY,12550,0350952042
-62,Marks and Spencer Group plc,600 Boll Weevil Circle,Enterprise,AL,36330,0128596417
-63,Save On Foods,3801 Eastern Blvd,Montgomery,AL,36116,0494330438
-64,Yamada Denki Co., Ltd.,600 Boll Weevil Circle,Enterprise,AL,36330,0381871965
-65,Coop Norge, the Group,120 Commercial Parkway,Branford,CT,6405,0128421682
-66,Rite Aid Corporation,11610 Memorial Pkwy South,Huntsville,AL,35803,0620700113
-67,Dufry AG,300 Colony Place,Plymouth,MA,2360,0979376419
-68,H2O Retailing Corporation,3371 S Alabama Ave,Monroeville,AL,36460,0467264229
-69,BJ’s Wholesale Club Holdings, Inc.,150 Barnum Avenue Cutoff,Stratford,CT,6614,0087062709
-70,Shoprite Holdings Ltd.,27520 Hwy 98,Daphne,AL,36526,0120890594
-71,Majid Al Futtaim Holding LLC,591 Memorial Dr,Chicopee,MA,1020,0270264079
-72,The IKEA Group (INGKA Holding B.V.),5360 Southwestern Blvd,Hamburg,NY,14075,0528865186
-73,Yonghui Superstores Co., Ltd.,55 Brooksby Village Way,Danvers,MA,1923,0524382289
-74,Globus Holding GmbH & Co. KG,1415 7Th Street South,Clanton,AL,35045,0421491402
-75,Reinalt-Thomas Corporation,13675 Hwy 43,Russellville,AL,35653,0811365402
-76,Williams-Sonoma, Inc.,2800 Spring Avn SW,Decatur,AL,35603,0879777679
-77,Sonae, SGPS, SA,1095 Industrial Pkwy,Saraland,AL,36571,0956790526
-78,Action Nederland BV,4206 N College Ave,Jackson,AL,36545,0016614161
-79,SHV Holdings N.V. / Makro,1000 State Route 36,Hornell,NY,14843,0734288119
-80,Edion Corporation,1420 Us 231 South,Troy,AL,36081,0166467316
-81,Vipshop Holdings Limited,295 Plymouth Street,Halifax,MA,2338,0665531062
-82,PT Indomarco Prismatama (Indomaret),656 New Haven Ave,Derby,CT,6418,0104009730
-83,John Lewis Partnership plc,890 Odum Road,Gardendale,AL,35071,0227187820
-84,Don Quijote Holdings Co., Ltd.,3164 Berlin Turnpike,Newington,CT,6111,0829640446
-85,Esselunga S.p.A.,742 Main Street,North Oxford,MA,1537,0329377093
-86,Sugi Holdings Co., Ltd.,1903 Cobbs Ford Rd,Prattville,AL,36066,0294405155
-87,Sundrug Co., Ltd.,1537 Hwy 231 South,Ozark,AL,36360,0706333859
-88,Majid Al Futtaim Holding LLC,145 Kelley Blvd,Millbrook,AL,36054,0228386072
-89,Amazon.com, Inc.,4300 Lakeville Road,Geneseo,NY,14454,0638257851
-90,Beisia Group Co., Ltd.,300 Colony Place,Plymouth,MA,2360,0987023972
-91,Sonae, SGPS, SA,120 Commercial Parkway,Branford,CT,6405,0215096728
-92,Save On Foods,1950 W Main St,Centre,AL,35960,0185604485
-93,Reinalt-Thomas Corporation,685 Schillinger Rd,Mobile,AL,36695,0865292949
-94,Belk, Inc.,69 Prospect Hill Road,East Windsor,CT,6088,0792819920
-95,Costco Wholesale Corporation,4206 N College Ave,Jackson,AL,36545,0970027094
-96,Liberty Interactive Corporation /,851 Ann St,Montgomery,AL,36107,0974828968
-97,MatsumotoKiyoshi Holdings Co., Ltd.,30 Catskill,Catskill,NY,12414,0341991453
-98,Menard, Inc.,100 Thruway Plaza,Cheektowaga,NY,14225,0793930739
-99,Stater Bros. Holdings Inc.,250 Hartford Avenue,Bellingham,MA,2019,0451169077
-100,Albertsons Companies, Inc.,5245 Rangeline Service Rd,Mobile,AL,36619,0259939444
+1,Tengelmann Warenhandelsgesellschaft,2300 Dixwell Ave,Hamden,CT,6514,0024018716
+2,Empire Company Limited,312 Palisades Blvd,Birmingham,AL,35209,0903442833
+3,Reitan Group,2575 Us Hwy 43,Winfield,AL,35594,0371046602
+4,Neiman Marcus Group LTD LLC,297 Grant Avenue,Auburn,NY,13021,0155135199
+5,Inditex, S.A.,685 Schillinger Rd,Mobile,AL,36695,0906144242
+6,Louis Delhaize S.A.,72 Main St,North Reading,MA,1864,0739371289
+7,Lenta Group,312 Palisades Blvd,Birmingham,AL,35209,0313589573
+8,Save-A-Lot Food Stores Ltd.,36 Paramount Drive,Raynham,MA,2767,0891863873
+9,Lagardère Travel Retail SAS,1400 County Rd 64,Horseheads,NY,14845,0602454241
+10,Action Nederland BV,1450 No Brindlee Mtn Pkwy,Arab,AL,35016,0209704613
+11,Reinalt-Thomas Corporation,700 Oak Street,Brockton,MA,2301,0485453298
+12,Kingfisher plc,3501 20th Av,Valley,AL,36854,0491189686
+13,Ascena Retail Group, Inc.,910 Wolcott St,Waterbury,CT,6705,0602856792
+14,Organización Soriana, S.A.B. de C.V.,20 Soojian Dr,Leicester,MA,1524,0141868936
+15,Kohl's Corporation,6140A Univ Drive,Huntsville,AL,35806,0261545716
+16,McKesson Europe AG (formerly Celesio,279 Troy Road,East Greenbush,NY,12061,0305517209
+17,PETCO Animal Supplies, Inc.,650 Main Ave,Norwalk,CT,6851,0322147216
+18,JD Sports Fashion Plc,11697 US Hwy 431,Guntersville,AL,35976,0896541475
+19,Stater Bros. Holdings Inc.,5783 So Transit Road,Lockport,NY,14094,0469527255
+20,Fast Retailing Co., Ltd.,591 Memorial Dr,Chicopee,MA,1020,0533037284
+21,East Japan Railway Company (JR East),4310 Montgomery Hwy,Dothan,AL,36303,0009666611
+22,The IKEA Group (INGKA Holding B.V.),495 Flatbush Ave,Hartford,CT,6106,0458406767
+23,Albertsons Companies, Inc.,2900 Pepperrell Pkwy,Opelika,AL,36801,0862664624
+24,Daiso Industries Co., Ltd.,10675 Hwy 5,Brent,AL,35034,0915696252
+25,BİM Birleşik Mağazalar A.Ş.,1300 Montgomery Highway,Vestavia Hills,AL,35216,0160196271
+26,Tractor Supply Company,103 North Caroline St,Herkimer,NY,13350,0950665836
+27,Belk, Inc.,8551 Whitfield Ave,Leeds,AL,35094,0426922323
+28,S.A.C.I. Falabella,1000 State Route 36,Hornell,NY,14843,0464606880
+29,L Brands, Inc.,4180 Us Hwy 431,Roanoke,AL,36274,0083596160
+30,Grupo Eroski,750 Middle Country Road,Middle Island,NY,11953,0681725076
+31,Hobby Lobby Stores, Inc.,11697 US Hwy 431,Guntersville,AL,35976,0212650309
+32,Liberty Interactive Corporation /,540 West Bypass,Andalusia,AL,36420,0969533070
+33,Academy Ltd. (dba Academy Sports +,685 Schillinger Rd,Mobile,AL,36695,0551584957
+34,BJ’s Wholesale Club Holdings, Inc.,101 Sanford Farm Shpg Center,Amsterdam,NY,12010,0789904515
+35,Defense Commissary Agency (DeCA),2 Gannett Dr,Johnson City,NY,13790,0514948900
+36,J. C. Penney Company, Inc.,650 Main Ave,Norwalk,CT,6851,0581260355
+37,Schwarz Group,8650 Madison Blvd,Madison,AL,35758,0551651920
+38,Meijer, Inc.,150 Gold Star Hwy,Groton,CT,6340,0442567004
+39,Magazine Luiza S.A.,8551 Whitfield Ave,Leeds,AL,35094,0273891748
+40,Save On Foods,3176 South Eufaula Avenue,Eufaula,AL,36027,0167177137
+41,PT Indomarco Prismatama (Indomaret),374 William S Canning Blvd,Fall River,MA,2721,0972962690
+42,Tengelmann Warenhandelsgesellschaft,630 Coonial Promenade Pkwy,Alabaster,AL,35007,0519963456
+43,Cencosud S.A.,5710 Mcfarland Blvd,Northport,AL,35476,0375127632
+44,Woolworths Limited,1201 Hwy 31 NW,Hartselle,AL,35640,0060134902
+45,Lojas Americanas S.A.,121 Worcester Rd,Framingham,MA,1701,0990905081
+46,E.Land World Co., Ltd.,1415 7Th Street South,Clanton,AL,35045,0583712321
+47,Système U, Centrale Nationale,777 Brockton Avenue,Abington,MA,2351,0192925496
+48,Shimamura Co., Ltd.,3018 East Ave,Central Square,NY,13036,0672308918
+49,Bauhaus GmbH & Co. KG,2643 Hwy 280 West,Alexander City,AL,35010,0168848862
+50,Coop Italia,625 School Street,Putnam,CT,6260,0346298990
+51,Nordstrom, Inc.,2400 Route 9,Fishkill,NY,12524,0823639159
+52,Save-A-Lot Food Stores Ltd.,80 Town Line Rd,Rocky Hill,CT,6067,0564749802
+53,Smart & Final Stores, Inc.,2900 Pepperrell Pkwy,Opelika,AL,36801,0925835318
+54,CP ALL Plc.,85 Crooked Hill Road,Commack,NY,11725,0179128877
+55,Advance Auto Parts, Inc.,1775 Washington St,Hanover,MA,2339,0477291857
+56,East Japan Railway Company (JR East),910 Wolcott St,Waterbury,CT,6705,0074111610
+57,Nordstrom, Inc.,214 Haynes Street,Talladega,AL,35160,0586177075
+58,WinCo Foods LLC,220 Salem Turnpike,Norwich,CT,6360,0495202536
+59,A101 Yeni Mağazacılık A.S,280 Washington Street,Hudson,MA,1749,0438537140
+60,Beisia Group Co., Ltd.,220 Salem Turnpike,Norwich,CT,6360,0653301822
+61,Reitan Group,506 State Road,North Dartmouth,MA,2747,0041776791
+62,BİM Birleşik Mağazalar A.Ş.,1201 Hwy 31 NW,Hartselle,AL,35640,0927466526
+63,Canadian Tire Corporation, Limited,27520 Hwy 98,Daphne,AL,36526,0294385567
+64,C&A Europe,1717 South College Street,Auburn,AL,36830,0926833254
+65,Dairy Farm International Holdings,2643 Hwy 280 West,Alexander City,AL,35010,0861959317
+66,Wal-Mart Stores, Inc.,233 5th Ave Ext,Johnstown,NY,12095,0185040282
+67,Kesko Corporation,690 Hwy 78,Sumiton,AL,35148,0795630986
+68,Save-A-Lot Food Stores Ltd.,80 Town Line Rd,Rocky Hill,CT,6067,0423348594
+69,Office Depot, Inc.,43 Stephenville St,Massena,NY,13662,0809625626
+70,Liberty Interactive Corporation /,4300 Lakeville Road,Geneseo,NY,14454,0406477986
+71,FNAC Darty S.A. (formerly Groupe FNAC,121 Worcester Rd,Framingham,MA,1701,0930490086
+72,The Gap, Inc.,200 Otis Street,Northborough,MA,1532,0985449882
+73,Southeastern Grocers, LLC,295 Plymouth Street,Halifax,MA,2338,0988955005
+74,Compagnie Financière Richemont SA,100 Elm Ridge Center Dr,Greece,NY,14626,0994099451
+75,Amazon.com, Inc.,3018 East Ave,Central Square,NY,13036,0288847808
+76,Lowe's Companies, Inc.,170 Fort Morgan Road,Gulf Shores,AL,36542,0340037087
+77,Takashimaya Company, Ltd.,333 Main Street,Tewksbury,MA,1876,0722072740
+78,Costco Wholesale Corporation,315 Foxon Blvd,New Haven,CT,6513,0875929162
+79,Organización Soriana, S.A.B. de C.V.,600 Boll Weevil Circle,Enterprise,AL,36330,0759674799
+80,Neiman Marcus Group LTD LLC,777 Brockton Avenue,Abington,MA,2351,0453234135
+81,O'Reilly Automotive, Inc.,5783 So Transit Road,Lockport,NY,14094,0951687332
+82,Office Depot, Inc.,973 Gilbert Ferry Road Se,Attalla,AL,35954,0259203102
+83,Majid Al Futtaim Holding LLC,4180 Us Hwy 431,Roanoke,AL,36274,0313474867
+84,Loblaw Companies Limited,7155 State Rt 12 S,Lowville,NY,13367,0892468948
+85,Sears Holdings Corporation,3700 Hwy 280-431 N,Phenix City,AL,36867,0616499062
+86,Grandvision N.V.,1105 Boston Road,Springfield,MA,1119,0713163255
+87,X5 Retail Group N.V.,685 Schillinger Rd,Mobile,AL,36695,0416081758
+88,Edeka Group,990 Route 5 20,Geneva,NY,14456,0010336318
+89,JB Hi-Fi Limited,450 Highland Ave,Salem,MA,1970,0000593693
+90,Gruppo Eurospin,656 New Haven Ave,Derby,CT,6418,0148762248
+91,Seven & I Holdings Co., Ltd.,6140A Univ Drive,Huntsville,AL,35806,0429574146
+92,Ingles Markets, Inc.,677 Timpany Blvd,Gardner,MA,1440,0106441273
+93,Dillard's, Inc.,425 Route 31,Macedon,NY,14502,0670486495
+94,Aeon Co., Ltd.,121 Worcester Rd,Framingham,MA,1701,0476985992
+95,Dollar Tree, Inc.,1000 State Route 36,Hornell,NY,14843,0203503860
+96,Coop Sverige AB,3801 Eastern Blvd,Montgomery,AL,36116,0929314825
+97,Fast Retailing Co., Ltd.,973 Gilbert Ferry Road Se,Attalla,AL,35954,0753552790
+98,Yamada Denki Co., Ltd.,67 Newton Rd,Danbury,CT,6810,0953886409
+99,Aldi Einkauf GmbH & Co. oHG,66-4 Parkhurst Rd,Chelmsford,MA,1824,0316777210
+100,Tesco PLC,550 Providence Hwy,Walpole,MA,2081,0761527785

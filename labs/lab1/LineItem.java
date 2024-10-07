@@ -32,7 +32,8 @@ public class LineItem {
 
     private static void writeLineItemsCSV(String filePath, int numLineItems) throws IOException {
         FileWriter writer = new FileWriter(filePath);
-        writer.write("ID,saleID,productID,quantity\n");
+        // Do not write header
+        // writer.write("ID,saleID,productID,quantity\n");
         Random rand = new Random();
         for (int i = 1; i <= numLineItems; i++) {
             writer.write(i + "," + rand.nextInt(2000) + "," + rand.nextInt(100) + "," + (rand.nextInt(10) + 1) + "\n");

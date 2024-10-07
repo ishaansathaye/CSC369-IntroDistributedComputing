@@ -44,7 +44,8 @@ public class Sales {
 
     private static void writeSalesCSV(String filePath, int numSales) throws IOException {
         FileWriter writer = new FileWriter(filePath);
-        writer.write("ID,date,time,storeID,customerID\n");
+        // Do not write header
+        // writer.write("ID,date,time,storeID,customerID\n");
         Random rand = new Random();
         // Get dates from Customer.java
         ArrayList<String[]> namesDates = Customer.readNamesDates("lab1/data/birthdays.csv");
