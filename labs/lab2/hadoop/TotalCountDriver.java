@@ -21,6 +21,9 @@ public class TotalCountDriver extends Configured implements Tool {
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
 
+        // set the combiner class (same as the reducer)
+        job.setCombinerClass(TotalCountReducer.class);
+
         job.setMapperClass(TotalCountMapper.class);
         job.setReducerClass(TotalCountReducer.class);
 
