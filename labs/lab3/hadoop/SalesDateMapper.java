@@ -10,6 +10,6 @@ public class SalesDateMapper extends Mapper<LongWritable, Text, DateTimePair, Te
         String id = tokens[0].trim();
         String date = tokens[1].trim();
         String time = tokens[2].trim();
-        context.write(new DateTimePair(date, time), new Text(time + ", " + id));
+        context.write(new DateTimePair(date, time), new Text(time + " " + id));
     }
 }
