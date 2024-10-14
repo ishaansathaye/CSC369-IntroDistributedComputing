@@ -1,4 +1,6 @@
-package lab3.hadoop;
+import java.io.*;
+import org.apache.hadoop.io.*;
+import org.apache.hadoop.mapreduce.*;
 
 public class SortingComparator extends WritableComparator {
     protected SortingComparator() {
