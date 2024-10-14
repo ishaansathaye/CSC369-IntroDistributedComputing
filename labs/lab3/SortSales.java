@@ -8,28 +8,33 @@ import java.text.SimpleDateFormat;
 public class SortSales {
 
     // function to sort array list of times in ascending order
-    public static void sortTimes(ArrayList<String> times) {
-        Collections.sort(times, new Comparator<String>() {
+    public static void sortTimes(ArrayList<String[]> times) {
+        Collections.sort(times, new Comparator<String[]>() {
             @Override
-            public int compare(String t1, String t2) {
-                    return t1.compareTo(t2);
-                }
-            });
+            public int compare(String[] a, String[] b) {
+                return a[0].compareTo(b[0]);
+            }
+        });
     }
 
     public static void main(String[] args) throws ParseException {
-        HashMap<String, ArrayList<String>> sales = new HashMap<>();
+        // hashmap of key is date, value is list of (time, id) pairs
+        HashMap<String, ArrayList<String[]>> sales = new HashMap<>();
         //contains id, date, time, pID, cId
+        
         try {
             Scanner sc = new Scanner(new File("/Users/ishaansathaye/Git/CalPolyCourses/CSC369-IntroDistributedComputing/labs/lab1/sales.csv"));
             while (sc.hasNextLine()) {
                 String[] line = sc.nextLine().split(",");
-                if (!sales.containsKey(line[1])) {
-                    sales.put(line[1], new ArrayList<String>());
+                String id = line[0];
+                String date = line[1];
+                String time = line[2];
+                if (!sales.containsKey(date)) {
+                    sales.put(date, new ArrayList<>());
                 }
-                sales.get(line[1]).add(line[2]);
+                sales.get(date).add(new String[]{time, id});
             }
-            sc.close();
+
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         }
@@ -53,8 +58,14 @@ public class SortSales {
             for (Date date : dates) {
                 String dateStr = sdf.format(date);
                 pw.print(dateStr + " ");
-                for (String time : sales.get(dateStr)) {
-                    pw.print(time + " ");
+                // comma after each time but not after the last time
+                for (int i = 0; i < sales.get(dateStr).size(); i++) {
+                    pw.print(sales.get(dateStr).get(i)[0]);
+                    pw.print(" ");
+                    pw.print(sales.get(dateStr).get(i)[1]);
+                    if (i != sales.get(dateStr).size() - 1) {
+                        pw.print(", ");
+                    }
                 }
                 pw.println();
             }
