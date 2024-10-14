@@ -21,3 +21,25 @@
 
 ## Assignments
 - [Assignment 1](assignments/assignment1/assignment1.pdf)
+
+## Basic Commands
+- Write `hadoop fs -ls /user/lubo` to see what is there.
+Common operations
+- `hadoop fs -ls [directory]` find content
+-` hadoop fs -copyFromLocal localDataFile /user/lubo/inpu`t <- copies a file from current local directory to input directory in the HDFS.
+- `hadoop fs -get /user/lubo/input/file` <- copies a file from the input directory in the HDFS to the current local directory.
+- `hadoop fs -rm -r /user/lubo/output` <- deletes output directory. 
+- `hadoop fs -mkdir /user/lubo/input` <- creates input directory
+- `hadoop fs -cat /user/lubo/output/part-r-00000` <-prints the content of the output file
+
+## Compiling Program
+- Put all your source code in the same folder.
+- Run `hadoop com.sun.tools.javac.Main *.java` This will create the .class files.
+- Run `jar cvf WordCount.jar *.class`. This will create a single jar.
+    - Example job submission:
+        - `hadoop jar WordCount.jar WordCountDriver 5 /user/lubo/input /user/lubo/output`
+- `WordCount.jar` is the name of the jar file
+- `WordCountDriver` is the name of the Java driver file (the file that contains the main method).
+- The last three parameters are input to the program: e.g., min size of word to be selected and location of input and output directories.
+- Type `hadoop fs -cat /user/lubo/output/part-r-00000` to see result. 
+- If multiple files, use 00001, 00002, and so on.

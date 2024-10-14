@@ -10,4 +10,3 @@
         - output/part-r-00000
         - output/part-r-00001
         - output/part-r-00002
-    

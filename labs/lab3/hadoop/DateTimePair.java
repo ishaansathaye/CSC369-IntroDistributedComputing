@@ -41,3 +41,5 @@ public class DateTimePair implements WritableComparable<DateTimePair> {
     public Text getTime() {
         return time;
     }
+
+}

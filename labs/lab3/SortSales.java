@@ -34,6 +34,7 @@ public class SortSales {
                 }
                 sales.get(date).add(new String[]{time, id});
             }
+            sc.close();
 
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
