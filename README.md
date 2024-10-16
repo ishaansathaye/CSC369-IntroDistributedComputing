@@ -18,9 +18,11 @@
 - [Lab 2 - Total Sales](labs/lab2/)
     - [Lab 2 Instructions](https://docs.google.com/document/d/1K-T44teE8fGD3-PdRWcSMnv6ewJBGX5b/edit)
 - [Lab 3 - Sorting All Sales](https://docs.google.com/document/d/1ILEF63JqMABhDGTELM9VkUjAXiMnC9AN/edit)
+- [Lab 4 - Top 10 Expensive Products](https://docs.google.com/document/d/1F3ElibL21zv-aZDmF0MCAoTl-26RO-hI/edit#heading=h.gjdgxs)
 
 ## Assignments
 - [Assignment 1](assignments/assignment1/assignment1.pdf)
+- [Assignment 2](assignments/assignment2/assignment2.pdf)
 
 ## Basic Commands
 - Write `hadoop fs -ls /user/lubo` to see what is there.
