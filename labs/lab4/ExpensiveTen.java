@@ -10,30 +10,29 @@ public class ExpensiveTen {
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(new FileReader(file));
-            String text = null;
-            // Create a map to store the products
-            Map<Double, String> products = new HashMap<Double, String>();
-            while ((text = reader.readLine()) != null) {
-                String[] parts = text.split(",");
-                // Add the product to the map
-                products.put(Double.parseDouble(parts[2]), parts[0] + ", " + parts[1]); // key is price, value is productID, productName
+            String line;
+            List<String> products = new ArrayList<>();
+            while ((line = reader.readLine()) != null) {
+                products.add(line);
             }
             // Sort the products by price
-            TreeMap<Double, String> sortedProducts = new TreeMap<Double, String>(Collections.reverseOrder());
-            sortedProducts.putAll(products);
-            // Write the 10 most expensive products to a file
-            File outputFile = new File("expensive10.txt");
-            BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
-            int count = 0;
-            for (Map.Entry<Double, String> entry : sortedProducts.entrySet()) {
-                if (count < 10) {
-                    writer.write(entry.getValue() + ", " + entry.getKey() + "\n");
-                    count++;
-                } else {
-                    break;
+            Collections.sort(products, new Comparator<String>() {
+                @Override
+                public int compare(String o1, String o2) {
+                    String[] parts1 = o1.split(",");
+                    String[] parts2 = o2.split(",");
+                    return Double.compare(Double.parseDouble(parts2[2]), Double.parseDouble(parts1[2]));
                 }
+            });
+            // Write the 10 most expensive products to a file
+            File expensiveTen = new File("/Users/ishaansathaye/Git/CalPolyCourses/CSC369-IntroDistributedComputing/labs/lab4/expensiveTen.txt");
+            BufferedWriter writer = new BufferedWriter(new FileWriter(expensiveTen));
+            for (int i = 0; i < 10; i++) {
+                writer.write(products.get(i));
+                writer.newLine();
             }
             writer.close();
+            
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

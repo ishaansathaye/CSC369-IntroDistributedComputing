@@ -1,5 +1,4 @@
 import org.apache.log4j.Logger;
-import org.w3c.dom.Text;
 import org.apache.hadoop.util.*;
 import org.apache.hadoop.conf.*;
 import org.apache.hadoop.fs.*;
