@@ -7,7 +7,7 @@
 - [3 - Custom Partitioners, Sorters, and Grouping Comparators](https://docs.google.com/presentation/d/1r9gLifKq3PrpLUJ2gMmY7KM44d0iOs5d/edit#slide=id.p1)
 - [4 - Secondary Sort Example](https://docs.google.com/presentation/d/1CG13YuVfVTuzRJFCazdTRs2kr2yBp03Z/edit#slide=id.p3)
 - [5 - Top N Example](https://docs.google.com/presentation/d/1HfZVg7Nh81fa1gThNKIdQ_m1zmPcUFIg/edit#slide=id.p1)
-- [6 - Outer Joins and Multiple Joins](https://docs.google.com/presentation/d/1yorq8VWz3FI8mJmigQXl9FDGNmwfr0vd/edit#slide=id.p1)
+- [6 - Outer Joins and Multiple Jobs](https://docs.google.com/presentation/d/1yorq8VWz3FI8mJmigQXl9FDGNmwfr0vd/edit#slide=id.p1)
 
 ## Notes
 - [Hadoop and Java](notes/0_HadoopJava.md)
