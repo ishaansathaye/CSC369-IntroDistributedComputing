@@ -11,12 +11,20 @@ public class ExpensiveTenMapper extends Mapper<LongWritable, Text, NullWritable,
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString().trim();
         String[] tokens = line.split(",");
+        if (tokens.length != 3) {
+            return;
+        }
 
-        double price = Double.parseDouble(tokens[2]);
-        top.add(new Product(Integer.parseInt(tokens[0]), tokens[1], price));
+        try {
+            double price = Double.parseDouble(tokens[2]);
+            top.add(new Product(Integer.parseInt(tokens[0]), tokens[1], price));
 
-        if (top.size() > TEN) {
-            top.pollLast(); // same as top.remove(top.last())
+            if (top.size() > TEN) {
+                top.pollLast(); // same as top.remove(top.last())
+            }
+        } catch (NumberFormatException e) {
+            // ignore lines that don't have a valid price
+            System.err.println("Ignoring line: " + line);
         }
     }
 

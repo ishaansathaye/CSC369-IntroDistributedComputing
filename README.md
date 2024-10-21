@@ -28,7 +28,7 @@
 - Write `hadoop fs -ls /user/lubo` to see what is there.
 Common operations
 - `hadoop fs -ls [directory]` find content
--` hadoop fs -copyFromLocal localDataFile /user/lubo/inpu`t <- copies a file from current local directory to input directory in the HDFS.
+- `hadoop fs -copyFromLocal localDataFile /user/lubo/input` <- copies a file from current local directory to input directory in the HDFS.
 - `hadoop fs -get /user/lubo/input/file` <- copies a file from the input directory in the HDFS to the current local directory.
 - `hadoop fs -rm -r /user/lubo/output` <- deletes output directory. 
 - `hadoop fs -mkdir /user/lubo/input` <- creates input directory
