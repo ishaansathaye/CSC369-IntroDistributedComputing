@@ -35,3 +35,8 @@
         }
     }
     ```
+
+## Practice Midterm
+- What is HDFS? Explain why it is needed when using map/reduce.
+    - HDFS (Hadoop Distributed File System) is a distributed file system designed to run on commodity hardware. It provides high-throughput access to application data and is suitable for applications with large data sets. HDFS is needed in map/reduce because it allows for the storage and processing of large amounts of data across multiple machines, enabling parallel processing and fault tolerance.
+    - Data distributed across multiple nodes, allowing for efficient data processing and storage.
