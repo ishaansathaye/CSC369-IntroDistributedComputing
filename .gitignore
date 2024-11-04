@@ -23,3 +23,10 @@
 hs_err_pid*
 replay_pid*
 .DS_Store
+
+# scala
+*project/
+*target/
+*.bsp/
+*.metals/
+*.scala-build/

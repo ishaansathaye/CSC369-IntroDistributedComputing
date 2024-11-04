@@ -18,8 +18,12 @@
     - [Lab 1 Instructions](https://docs.google.com/document/d/1IZJ3BmwIFJFoxMhJ-pdHfGyYU1rzox7w/edit)
 - [Lab 2 - Total Sales](labs/lab2/)
     - [Lab 2 Instructions](https://docs.google.com/document/d/1K-T44teE8fGD3-PdRWcSMnv6ewJBGX5b/edit)
-- [Lab 3 - Sorting All Sales](https://docs.google.com/document/d/1ILEF63JqMABhDGTELM9VkUjAXiMnC9AN/edit)
-- [Lab 4 - Top 10 Expensive Products](https://docs.google.com/document/d/1F3ElibL21zv-aZDmF0MCAoTl-26RO-hI/edit#heading=h.gjdgxs)
+- [Lab 3 - Sorting All Sales](labs/lab3/)
+    - [Lab 3 Instructions](https://docs.google.com/document/d/1ILEF63JqMABhDGTELM9VkUjAXiMnC9AN/edit)
+- [Lab 4 - Top 10 Expensive Products](labs/lab4/)
+    - [Lab 4 Instructions](https://docs.google.com/document/d/1F3ElibL21zv-aZDmF0MCAoTl-26RO-hI/edit#heading=h.gjdgxs)
+- [Lab 5 - Scala](labs/lab5/)
+    - [Lab 5 Instructions](https://docs.google.com/document/d/1tWk_RK40CvqoesQINOo84wVH3D_pPMXL/edit)
 
 ## Assignments
 - [Assignment 1](assignments/assignment1/assignment1.pdf)
