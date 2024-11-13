@@ -32,7 +32,7 @@ case class Store(id: Int, name: String, state: String)
 object Lab5 {
     def main(args: Array[String]): Unit = {
         // Read data from files
-        val stores = Source.fromFile("../lab1/stores.csv").getLines().map {
+        val stores = Source.fromFile("../lab1/store.csv").getLines().map {
             line =>
                 val Array(id, name, address, city, state, zip, phone) = line.split(",")
                 Store(id.toInt, name, state)
@@ -62,5 +62,33 @@ object Lab5 {
                 val store = stores.find(_.id == sale.storeID).get
                 (sale, store)
         }
+
+        // Group by the store
+        val storeSalesGrouped = storeSales.groupBy {
+            case (_, store) => (store.state, store.name)
+        }
+
+        // Calculate total sales for each store
+        val storeSalesTotal = storeSalesGrouped.mapValues {
+            sales => sales.flatMap { // in format (sale, store)
+                // get the sales in format (id, storeID)
+                case (sale, _) =>
+                    // get the line items for correct saleID
+                    val lineItemsForSale = lineItems.filter(_.saleID == sale.id)
+                    lineItemsForSale.flatMap {
+                        // for each individual line item, calculate the total
+                        lineItem =>
+                            val product = products.find(_.id == lineItem.productID)
+                            product.map(p => p.price * lineItem.quantity)
+                    }
+            }.sum
+        }
+
+        // Print the result ordered by state
+        storeSalesTotal.toSeq.sortBy(_._1).foreach {
+            case ((state, name), total) =>
+                println(s"$state, $name, $total")
+        }
+        
     }
 }

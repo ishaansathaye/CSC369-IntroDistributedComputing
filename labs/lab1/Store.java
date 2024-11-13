@@ -93,6 +93,8 @@ public class Store {
 
         for (int i = 1; i <= numEntries; i++) {
             String storeName = storeNames.get(random.nextInt(storeNames.size()));
+            // replace all commas in the store name with empty string
+            storeName = storeName.replace(",", "");
             String[] addressData = addresses.get(random.nextInt(addresses.size()));
 
             String phoneNumber = generateUniquePhoneNumber(phoneNumbers);
