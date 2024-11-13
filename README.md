@@ -9,6 +9,7 @@
 - [5 - Top N Example](https://docs.google.com/presentation/d/1HfZVg7Nh81fa1gThNKIdQ_m1zmPcUFIg/edit#slide=id.p1)
 - [6 - Outer Joins and Multiple Jobs](https://docs.google.com/presentation/d/1yorq8VWz3FI8mJmigQXl9FDGNmwfr0vd/edit#slide=id.p1)
 - [7 - Intro to Scala](https://docs.google.com/presentation/d/1R4BPvFmCZU-IzKlDTGnucmuqC9Up9k0w/edit#slide=id.p1)
+- [8 - RDDs in Spark](https://docs.google.com/presentation/d/1sP2jW2tuYeUqczHkS8HJXlLjtBrCADf8/edit#slide=id.p1)
 
 ## Notes
 - [Hadoop and Java](notes/0_HadoopJava.md)
