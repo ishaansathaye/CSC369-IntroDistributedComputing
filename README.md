@@ -25,11 +25,14 @@
     - [Lab 4 Instructions](https://docs.google.com/document/d/1F3ElibL21zv-aZDmF0MCAoTl-26RO-hI/edit#heading=h.gjdgxs)
 - [Lab 5 - Scala](labs/lab5/)
     - [Lab 5 Instructions](https://docs.google.com/document/d/1tWk_RK40CvqoesQINOo84wVH3D_pPMXL/edit)
+- [Lab 6 - Spark](labs/lab6/)
+    - [Lab 6 Instructions](https://docs.google.com/document/d/1FsnPrEl35rMZDPZBhhcHf7eJ8VzCTun7/edit)
 
 ## Assignments
 - [Assignment 1](assignments/assignment1/assignment1.pdf)
 - [Assignment 2](assignments/assignment2/assignment2.pdf)
 - [Assignment 3](assignments/assignment3/assignment3.pdf)
+- [Assignment 4](assignments/assignment4/assignment4.pdf)
 
 ## Map/Reduce Java Basic Commands
 - Write `hadoop fs -ls /user/lubo` to see what is there.
