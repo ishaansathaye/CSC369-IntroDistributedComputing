@@ -1,7 +1,8 @@
-package labs.lab6
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.log4j.{Level, Logger}
-import scala.collection.mutable.Map
+package example
+import scala.io._
+import org.apache.spark.{ SparkConf, SparkContext }
+import org.apache.log4j.{ Level, Logger }
+
 
 // Reads data from lab 1 and prints the total sales (in dollars) for every store.
 // Print the result ordered by state. That is, start with stores in the state of AL.
@@ -25,7 +26,7 @@ import scala.collection.mutable.Map
 // store.csv
 // storeID, name, address, city, state, zip, phone
 
-object Lab6 {
+object App {
     def main(args: Array[String]): Unit = {
         Logger.getLogger("org").setLevel(Level.OFF)
         Logger.getLogger("akka").setLevel(Level.OFF)
@@ -34,8 +35,8 @@ object Lab6 {
         val sc = new SparkContext(conf)
 
         // Read data from files
-        val lineText = sc.textFile("/user/isathaye/input/lineItem.csv").persist()
-        val productText = sc.textFile("/user/isathaye/input/product.csv").persist()
+        val lineText = sc.textFile("/user/isathaye/input/lineItems.csv").persist()
+        val productText = sc.textFile("/user/isathaye/input/products.csv").persist()
         val salesText = sc.textFile("/user/isathaye/input/sales.csv").persist()
         val storeText = sc.textFile("/user/isathaye/input/store.csv").persist()
 
@@ -65,34 +66,38 @@ object Lab6 {
         // salesByStore: (saleID, store.state, store.name)
         val salesByStore = sales.cartesian(stores)
             .filter(x => x._1._2 == x._2._1)
-            .map(x => (x._1._1, x._2._3, x._2._2)).distinct()
-
-        // Join lineItems and products on productID and group by productID
+            .map(x => (x._1._1, x._2._3, x._2._2))
+        
+        // Join lineItems and products on productID and group by saleID
+        // lineItemsByProduct: (saleID, (productID, price, quantity))
         val lineItemsByProduct = lineItems.cartesian(products)
             .filter(x => x._1._2._2 == x._2._1)
-            .groupBy(x => x._1._2._2)
+            .map(x => (x._1._2._1, (x._1._2._2, x._2._2, x._1._2._3)))
+            .groupByKey()
+            .mapValues(x => x.toList)
         
-        // Calculate total price for each product and amount sold
-        val items = lineItemsByProduct.mapValues(
-            x => x.map(y => y._1._2._3.toDouble * y._2._2))
-        .mapValues(x => x.sum).distinct()
-
-        // Calculate total sales for each store
-        val totals = salesByStore.cartesian(items)
-            .filter(x => x._1._1 == x._2._1)
-            .map(x => (x._1._2, x._2._2))
-            .collect()
-        
-        // Print results
-        totals.groupBy(x => x._1).foreach(x => {
-            val state = x._1
-            x._2.foreach(y => {
-                val store = y._1
-                val total = y._2
-                println(s"$state, $store, $total")
-            })
+        // Calculate total price for each sale
+        // totalSales: (saleID, total)
+        val totalSales = lineItemsByProduct.map(x => {
+            val total = x._2.map(y => y._2.toDouble * y._3.toDouble).sum
+            (x._1, total)
         })
 
+        // Calculate total sales for each store by summing total sales for each sale
+        // totalSalesByStore: (store.state, store.name, total)
+        val totalSalesByStore = salesByStore.cartesian(totalSales)
+            .filter(x => x._1._1 == x._2._1)
+            .map(x => (x._1._2, x._1._3, x._2._2))
+
+        // Sum up total sales for each store name
+        // totalSalesByStoreName: (store.state, store.name, total)
+        val totalSalesByStoreName = totalSalesByStore.groupBy(x => (x._1, x._2))
+            .mapValues(x => x.map(y => y._3).sum)
+        
+        // Print the result ordered by state
+        // totalSalesByStoreName: (store.state, store.name, total)
+        totalSalesByStoreName.collect().sortBy(_._1).foreach(println)
+        
         sc.stop()
     }
 }
