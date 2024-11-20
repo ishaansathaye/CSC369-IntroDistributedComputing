@@ -29,8 +29,10 @@
   - [Lab 4 Instructions](https://docs.google.com/document/d/1F3ElibL21zv-aZDmF0MCAoTl-26RO-hI/edit#heading=h.gjdgxs)
 - [Lab 5 - Scala](labs/lab5/)
   - [Lab 5 Instructions](https://docs.google.com/document/d/1tWk_RK40CvqoesQINOo84wVH3D_pPMXL/edit)
-- [Lab 6 - Spark](labs/lab6/)
+- [Lab 6 - Spark and RDDs](labs/lab6/)
   - [Lab 6 Instructions](https://docs.google.com/document/d/1FsnPrEl35rMZDPZBhhcHf7eJ8VzCTun7/edit)
+- [Lab 7 - Top 10 Spark and RDD](labs/lab7/)
+  - [Lab 7 Instructions](https://docs.google.com/document/d/17RWxoWmKOL16y-a_VxK53Ube9PoHk1AC/edit)
 
 ## Assignments
 
@@ -42,6 +44,13 @@
 ## Project
 
 - [Project](https://github.com/ishaansathaye/CSC369Project-LoanApproval)
+
+## Scala Cluster Commands
+- Create an example subdirectory, e.g. directory with name `example`.
+- Create your program, e.g., `App.scala` in this subdirectory. Make sure to start with `package example`.
+- Type `sbt package` in the main directory (that contain the src folder). This will compile your program.
+- `spark-submit --class example.App --master yarn ./target/scala-2.11/example_2.11-0.1.jar /user/isathaye/input /user/isathaye/output` to execute. Program parameters (HDFS directories) in blue.
+- In the above statement, example is the name of the project as set in build.sbt.
 
 ## Map/Reduce Java Basic Commands
 
