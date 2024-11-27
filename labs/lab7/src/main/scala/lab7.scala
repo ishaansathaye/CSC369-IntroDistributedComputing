@@ -44,42 +44,41 @@ object App {
         val products = productText.map(line => {
             val cols = line.split(",")
             (cols(0), cols(2).toDouble)
-        })
+        }).persist()
         // lineItems: (ID, (saleID, productID, quantity))
         val lineItems = lineText.map(line => {
             val cols = line.split(",")
             (cols(0), (cols(1), cols(2), cols(3)))
-        })
+        }).persist()
         // sales: (saleID, date, storeID)
         val sales = salesText.map(line => {
             val cols = line.split(",")
-            (cols(0), cols(1), cols(3))
-        })
+            (cols(0), (cols(1), cols(3)))
+        }).persist()
         // stores: (storeID, name, city)
         val stores = storeText.map(line => {
             val cols = line.split(",")
-            (cols(0), cols(1), cols(3))
-        })
+            (cols(0), (cols(1), cols(3)))
+        }).persist()
 
         // Get dates from sales
         // dates: (storeID, date (yyyy-MM), saleID)
-        // replace "/" with "-" in date
         val dates = sales.map {
-            case (saleID, date, storeID) => 
-            (storeID, date.replace("/", "-").substring(0, 7), saleID)
+            case (saleID, (date, storeID)) => 
+            (storeID, (date.replace("/", "-").substring(0, 7), saleID))
         }
 
         // Join dates (sales) with stores
         // storeDates: (saleID, (storeID, date, name, city))
         val storeDates = dates.join(stores).map {
-            case (storeID, (date, saleID), (name, city)) => 
+            case (storeID, ((date, saleID), (name, city))) => 
             (saleID, (storeID, date, name, city))
         }
 
         // Join lineItems with products
         // lineItems: (saleID, total)
         val lineItemsWithPrice = lineItems.join(products).map {
-            case (ID, ((saleID, productID, quantity), price)) => 
+            case (id, ((saleID, productID, quantity), price)) => 
             (saleID, price.toDouble * quantity.toDouble)
         }
 
@@ -97,10 +96,13 @@ object App {
             (date, (name, city, total))
         }.groupByKey().sortByKey().mapValues(_.toList.sortBy(-_._3).take(10))
 
-        // Print output
+        // Print output with sales for each month on the same line
         topStores.collect().foreach {
             case (date, stores) => 
-            println(s"$date, ${stores.mkString(", ")}")
+            println(date + ", " + stores.map {
+                case (name, city, total) => 
+                "(" + name + ", " + city + ", $" + total + ")"
+            }.mkString(", "))
         }
         
         sc.stop()
