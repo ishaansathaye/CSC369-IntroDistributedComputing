@@ -23,7 +23,7 @@ object App {
         Logger.getLogger("org").setLevel(Level.OFF)
         Logger.getLogger("akka").setLevel(Level.OFF)
 
-        val conf = new SparkConf().setAppName("assignment5")
+        val conf = new SparkConf().setAppName("assignment6").setMaster("local[*]")
         val sc = new SparkContext(conf)
 
         val coursesText = sc.textFile("/user/isathaye/input/courses.txt").persist()
@@ -32,35 +32,21 @@ object App {
         
         val courses = coursesText.map(line => {
             val cols = line.split(",")
-            (cols(0), cols(1).toInt)
+            (cols(0).trim(), cols(1).trim().toInt)
         }).persist()
         val students = studentsText.map(line => {
             val cols = line.split(",")
-            (cols(0), (cols(1), cols(2), cols(3)))
+            (cols(0).trim(), (cols(1), cols(2), cols(3)))
         }).persist()
         val grades = gradesText.map(line => {
             val cols = line.split(",")
-            (cols(0), (cols(1), cols(2)))
+            (cols(0).trim(), (cols(1).trim(), cols(2).trim()))
         }).persist()
 
-        // Find name of students that have taken at least one of the courses
-        // with the greatest difficulty level
-
-        // Find the courses with the greatest difficulty level
-        // Only keep courses with the greatest difficulty level
-        // course, difficulty
-        val maxCourse = courses.maxBy(_._2)
-        maxCourse.foreach(println)
-
-        // Join students with grades
-        // val studentGrades = students.join(grades).map {
-        //     case (studentID, ((name, address, phone), (course, grade))) => 
-        //     (studentID, (name, course, grade))
-        // }
-
-        // Filter students that have taken at least one of the courses
-        // with the greatest difficulty level
-
+        // Write a program that prints the top 5 most difficult classes.
+        val top5 = courses.map(x => (x._2, x._1)).sortByKey(false).take(5)
+        println("Top 5 most difficult classes:")
+        top5.map(x => println(x._2))
 
         sc.stop()
     }
