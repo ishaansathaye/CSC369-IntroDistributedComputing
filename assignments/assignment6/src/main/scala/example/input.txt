@@ -1,2 +1,0 @@
-Bob Wilson, 11, B CS201
-John Back, 23, A CSC369, B CSC366

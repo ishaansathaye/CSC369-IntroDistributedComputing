@@ -1,4 +1,0 @@
-23, Computer Science
-20, Mechanical Engineering
-44, Industrial Engineering
-55, Electrical Engineering

@@ -3,6 +3,21 @@ import scala.io._
 import org.apache.spark.{ SparkConf, SparkContext }
 import org.apache.log4j.{ Level, Logger }
 
+// Consider three files. One file has information about students (ID, name, address, phone number). 
+// 1, John, 123 Main, 233 223 5566 
+
+// Consider a second files that has information about courses and their difficulty. 
+// CSC365, 1
+// CSC369, 1
+// CSC469, 2
+
+// Consider a third file that contains the student ID, course, and grade. 
+// 1, CSC365, A
+// 1, CSC369, A
+// 1, CSC469, B
+// It contains information about student taking a class and earning a grade. 
+
+
 object App {
     def main(args: Array[String]): Unit = {
         Logger.getLogger("org").setLevel(Level.OFF)
@@ -11,28 +26,41 @@ object App {
         val conf = new SparkConf().setAppName("assignment5")
         val sc = new SparkContext(conf)
 
-        val lines = sc.textFile("/user/isathaye/input/input.txt").persist()
+        val coursesText = sc.textFile("/user/isathaye/input/courses.txt").persist()
+        val studentsText = sc.textFile("/user/isathaye/input/students.txt").persist()
+        val gradesText = sc.textFile("/user/isathaye/input/grades.txt").persist()
         
-        val gpaMap = Map("A" -> 4.0, "B" -> 3.0, "C" -> 2.0, "D" -> 1.0, "F" -> 0.0)
+        val courses = coursesText.map(line => {
+            val cols = line.split(",")
+            (cols(0), cols(1).toInt)
+        }).persist()
+        val students = studentsText.map(line => {
+            val cols = line.split(",")
+            (cols(0), (cols(1), cols(2), cols(3)))
+        }).persist()
+        val grades = gradesText.map(line => {
+            val cols = line.split(",")
+            (cols(0), (cols(1), cols(2)))
+        }).persist()
 
-        val res = lines.map { line =>
-            val parts = line.split(", ", 3)
-            val name = parts(0)
-            val id = parts(1)
-            val courses = parts(2).split(", ").map(_.trim)
+        // Find name of students that have taken at least one of the courses
+        // with the greatest difficulty level
 
-            val (total, numCourses) = courses.aggregate(0.0, 0)(
-                { case ((sum, count), course) =>
-                    (sum + gpaMap(course.split(" ")(0)), count + 1)}, 
-                { case ((sum1, count1), (sum2, count2)) =>
-                    (sum1 + sum2, count1 + count2)}) 
+        // Find the courses with the greatest difficulty level
+        // Only keep courses with the greatest difficulty level
+        // course, difficulty
+        val maxCourse = courses.maxBy(_._2)
+        maxCourse.foreach(println)
 
-            val gpa = total / numCourses
+        // Join students with grades
+        // val studentGrades = students.join(grades).map {
+        //     case (studentID, ((name, address, phone), (course, grade))) => 
+        //     (studentID, (name, course, grade))
+        // }
 
-            s"$name, $id, $gpa"
-        }
+        // Filter students that have taken at least one of the courses
+        // with the greatest difficulty level
 
-        res.collect().foreach(println)
 
         sc.stop()
     }
