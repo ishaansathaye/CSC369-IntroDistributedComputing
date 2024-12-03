@@ -19,6 +19,15 @@ import org.apache.log4j.{ Level, Logger }
 
 
 object App {
+    def convertGPA(grade: String): Double = 
+        return grade match {
+            case "A" => 4.0
+            case "B" => 3.0
+            case "C" => 2.0
+            case "D" => 1.0
+            case _ => 0.0
+        }
+
     def main(args: Array[String]): Unit = {
         Logger.getLogger("org").setLevel(Level.OFF)
         Logger.getLogger("akka").setLevel(Level.OFF)
@@ -42,11 +51,30 @@ object App {
             val cols = line.split(",")
             (cols(0).trim(), (cols(1).trim(), cols(2).trim()))
         }).persist()
+        
+        // Convert courses to key value pair and replace grade with GPA num
+        val gpaGrades = grades.map(x => (x._1, (x._2._1, convertGPA(x._2._2))))
 
-        // Write a program that prints the top 5 most difficult classes.
-        val top5 = courses.map(x => (x._2, x._1)).sortByKey(false).take(5)
-        println("Top 5 most difficult classes:")
-        top5.map(x => println(x._2))
+        // Join studentGPA with students and group by student ID
+        val studentGPA = students.leftOuterJoin(gpaGrades).map({
+            case (id, ((name, address, phone), Some((course, gpa)))) => (id, (name, address, phone, gpa))
+            case (id, ((name, address, phone), None)) => (id, (name, address, phone, 0.0))
+        })
+
+        // Group then aggregate by student ID and calculate average GPA
+        val studentGrouped = studentGPA.groupByKey().mapValues(values => {
+            val gpaList = values.map(_._4)
+            val gpaSum = gpaList.sum
+            val gpaCount = gpaList.size
+            val gpaAvg = gpaSum / gpaCount
+            gpaAvg
+        })
+
+        // Join studentGrouped with students and sort by GPA in descending order
+        val studentGPAOrdered = studentGrouped.join(students).sortBy(_._2._1, false)
+
+        // Print student name, gpa
+        studentGPAOrdered.collect().foreach(x => println(x._2._2._1 + ", " + x._2._1))
 
         sc.stop()
     }
