@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Final Exam Study Guide}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+
+\section*{Using Hadoop and Java}
+\begin{itemize}
+    \item None
+\end{itemize}
+
+\section*{1 Map/Reduce Introduction}
+Phases:
+\begin{itemize}
+    \item 1. Map
+    \item 2. Local Sort - data sent from map node to a reduce node is sorted
+    \item 3. Local Group (optional) - groups by key
+    \item 4. Combine (optional) - combines values with the same key
+    \item 5. Partition - decides how output of mapper is to be partitioned 
+    to the reducers
+    \item 6. Global Sort (merge) - a merge sort is applied at reducer node so all
+    data with same key is grouped together
+    \item 7. Global Group - for each key, create groups
+    \item 8. Reduce - merges everyone with same key to produce a single pair output
+    for each key 
+\end{itemize}
+
+Map/Reduce stores all intermediate data on disk.
+
+\section*{2 Combiner Functions and Custom Classes}
+Problems where to use combiner:
+\begin{itemize}
+    \item finds all words of size $\geq$ n characters and their \textbf{frequency}
+    \item Summing up the values of a key using a SumCountPair class
+\end{itemize}
+
+\section*{3 Custom Partitioners, Sorters, and Grouping Comparators}
+\begin{itemize}
+    \item Custom Partition - define function \texttt{getPartition}; on the natural key
+    \item Custom Sort - override \texttt{compareTo} method with sort comparator class;
+    if primitive type key then create the custom class; ($>$ 0 (1 $>$ 2), 0 (1 = 2), $<$ 0 (1 $<$ 2))
+    \item Custom Grouping Comparator (recs with same key passed as input to single 
+    call to the reduce method) - write a \texttt{compare} method
+    \item Natural key is what final result is grouped by (subset of composite key)
+    \item Composite key is output key of mapper (define sorting order on this)
+\end{itemize}
+
+\section*{4 Secondary Sort Example}
+\begin{itemize}
+    \item None
+\end{itemize}
+
+\section*{5 Finding Top N Example}
+\begin{itemize}
+    \item Single call to the reducer when having a top N problem (read problem); all 
+    have same key as NULL
+\end{itemize}
+
+\section*{6 Outer Joins and Multiple Jobs}
+\begin{itemize}
+    \item None
+\end{itemize}
+
+\section*{7 Intro to Scala}
+\begin{itemize}
+    \item var vs val (change vs constant)
+    \item fold - takes initial value: \texttt{foldLeft(0)((total, x) => total + x)}
+    \item reduce - no initial value: \texttt{reduceLeft((acc, x) => acc + x)}
+    \item Tuple starts at 1
+    \item \_ in a map function is the current element
+    \item \_(num) is the num-th element of the tuple (need the \_ to access)
+    \item Iterating over maps with case: \texttt{test.map(\{case (k, v) =$>$ println(k + " " + v)\})}
+    \item match and case: \texttt{val result = x match \{case 0 =$>$ "zero"; case 1 =$>$ "one"\}}
+\end{itemize}
+
+\section*{8 RDDs in Spark}
+\begin{itemize}
+    \item flatMap - RDD of lists to RDD of elements; example input: \texttt{List(List(1, 2), List(3, 4))} output: \texttt{List(1, 2, 3, 4)};
+    \texttt{flatMap(\_.split(" "))} - splits each line into words
+    \item saveAsTextFile - saves RDD to a file
+    \item union, intersection, subtract, cartesian; cartesian is combinations of two RDDs
+    \item collect, count, countByValue, take, top, takeOrdered, reduce, fold, foreach, aggregate
+    \item aggregate - \texttt{aggregate((0,0)(seqOp, combOp))} - seqOp is applied to each element in the partition and combOp is applied to the results of seqOp;
+    ex. \texttt{rdd.aggregate((0,0))((acc, value) =$>$ (acc.\_1 + value, acc.\_2 + 1), (acc1, acc2) =$>$ (acc1.\_1 + acc2.\_1, acc1.\_2 + acc2.\_2))}
+\end{itemize}
+
+\section*{9 Working with Key/Value Pairs}
+\begin{itemize}
+    \item reduceByKey((x, y) =$>$ x + y) - adds up all values with the same key; combine values with the same key
+    \item groupByKey(); returns a list of values for each key
+    \item \textbf{mapValues - applies a function to the values of each key}
+    \item sortByKey(); sorts by key (true for ascending, false for descending)
+    \item keyBy - converts RDD of elements to RDD of key/value pairs; ex \texttt{rdd.keyBy(\_.length)} - adds length as key to each element
+    \item sortBy() - sort by a function; ex. \texttt{sortBy(\_.\_(1))}; for descending, use \texttt{sortBy(\_.\_(1), false)}
+    \item join - joins two RDDs on the key; ex. \texttt{rdd1.join(rdd2)}; output is (key, (value1, value2))
+    \item rightOuterJoin - rdd.join(rdd2) but with all keys in rdd2; if key is not present in rdd, value is None
+    \item leftOuterJoin - rdd.join(rdd2) but with all keys in rdd; if key is not present in rdd2, value is None
+    \item countByKey - returns a map of key to count
+\end{itemize}
+
+\end{document}

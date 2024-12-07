@@ -30,3 +30,11 @@ replay_pid*
 *.bsp/
 *.metals/
 *.scala-build/
+
+# tex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
